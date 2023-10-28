@@ -1,12 +1,16 @@
-.about {
+.screen1 {
   position: relative;
   width: 100%;
   height: 1024px;
+  background-color: #fbf448;
 }
 .menu {
   position: relative;
   width: 100%;
-  height: 200px;
-  outline: 2px black;
+  height: 55px;
+  outline: 2px solid black;
   background-color: white;
+}
+.h1 {
+  position: relative;
 }
