@@ -60,7 +60,6 @@ body.zaglushka {
     position: relative;
     display: flex;
     flex-direction: row;
-    z-index: 1;
   }
   input {
     position: relative;
@@ -71,7 +70,6 @@ body.zaglushka {
     font-family: 'Verdanar';
     font-size: 26px;
     padding: 0 0 5px 20px;
-    z-index: 1;
   }
   ::placeholder {
     font-family: 'Verdanar';
@@ -89,7 +87,6 @@ body.zaglushka {
     background: url(images/arrow.png);
     background-size: 100%;
     color: black;
-    z-index: 1;
   }
   button:hover {
     background-color: #fbf448;
