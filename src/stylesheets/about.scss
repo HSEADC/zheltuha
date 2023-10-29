@@ -1,16 +1,369 @@
+p {
+  font-family: 'Verdanar';
+  font-size: 24px;
+  line-height: 96%;
+}
+
 .screen1 {
   position: relative;
   width: 100%;
   height: 1024px;
   background-color: #fbf448;
+  overflow: hidden;
 }
 .menu {
   position: relative;
   width: 100%;
-  height: 55px;
+  height: 70px;
   outline: 2px solid black;
-  background-color: white;
+  background-color: #fbf448;
+  display: flex;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
 }
+.abouttext {
+  position: relative;
+  margin: auto 0;
+  left: 20px;
+  width: 170px;
+  height: 32px;
+  background: url(images/abouttext.png);
+  background-size: 100%;
+}
+
+.gradient {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 1113px;
+  height: 646px;
+  top: 129px;
+  left: 196px;
+  filter: blur(35px);
+}
+
 .h1 {
   position: relative;
+  top: 155px;
+  margin: 0 auto;
+  width: 930px;
+  height: 234px;
+  background: url(images/h1.svg);
+  background-size: 100%;
+}
+.h2 {
+  position: relative;
+  top: 96px;
+  margin: 0 auto;
+  width: 1116px;
+  height: 235px;
+  background: url(images/h2.png);
+  background-size: 100%;
+}
+.h3 {
+  position: relative;
+  top: 96px;
+  margin: 0 auto;
+  width: 605px;
+  height: 133px;
+  outline: 2px solid black;
+  background-color: white;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+.teach {
+  position: relative;
+  margin: 0 auto;
+  top: 30px;
+  width: 515px;
+  height: 77px;
+  background: url(images/teach.png);
+  background-size: 100%;
+}
+.whitetext {
+  font-family: 'Verdanab';
+  position: relative;
+  top: -105px;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+  line-height: 123%;
+  font-weight: 700;
+  color: white;
+}
+.hand {
+  position: absolute;
+  background: url(images/hand.svg);
+  background-size: 100%;
+  top: 553px;
+  left: 1092px;
+  width: 67px;
+  height: 64px;
+  transform: rotate(348deg);
+}
+.screen2 {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  background-color: #fbf448;
+  overflow: hidden;
+}
+.vsefakenews {
+  position: relative;
+  background: url(images/vsefakenews.svg);
+  background-size: 100%;
+  top: 85px;
+  left: 56px;
+  width: 698px;
+  height: 365px;
+}
+.computer {
+  position: absolute;
+  background: url(images/computer.png);
+  background-size: 100%;
+  top: 56px;
+  left: 725px;
+  width: 867px;
+  height: 948px;
+}
+
+.gradient2 {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 1100px;
+  height: 908px;
+  top: 49px;
+  left: 556px;
+  filter: blur(35px);
+}
+.gradient3 {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 785px;
+  height: 306px;
+  top: 402px;
+  left: 34px;
+  filter: blur(35px);
+}
+.ogon {
+  position: absolute;
+  background: url(images/ogon.png);
+  background-size: 100%;
+  top: 179px;
+  left: 632px;
+  width: 402px;
+  height: 269px;
+  transform: rotate(346deg);
+}
+
+.screen2 p {
+  position: relative;
+  top: 107px;
+  left: 167px;
+}
+
+.screen3 {
+  position: relative;
+  width: 100%;
+  height: 1250px;
+  background-color: #fbf448;
+  overflow: hidden;
+}
+.gradient4 {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 740px;
+  height: 740px;
+  top: 52px;
+  filter: blur(35px);
+}
+.gradient5 {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 782px;
+  height: 286px;
+  top: 258px;
+  left: 609px;
+  filter: blur(35px);
+}
+.gradient6 {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 782px;
+  height: 286px;
+  top: 485px;
+  left: 609px;
+  filter: blur(35px);
+}
+.midlyavseh {
+  position: relative;
+  background: url(images/midlyavseh.svg);
+  background-size: 100%;
+  top: 85px;
+  left: 982px;
+  width: 478px;
+  height: 196px;
+}
+.screen3 p:nth-of-type(1) {
+  position: relative;
+  top: 130px;
+  left: 804px;
+}
+.screen3 p:nth-of-type(2) {
+  position: relative;
+  top: 260px;
+  left: 804px;
+}
+.vft {
+  position: absolute;
+  background: url(images/vtf.png);
+  background-size: 100%;
+  top: 179px;
+  left: 642px;
+  width: 294px;
+  height: 133px;
+  transform: rotate(10deg);
+}
+.yavshoke {
+  position: absolute;
+  background: url(images/yavshoke.png);
+  background-size: 100%;
+  top: 455px;
+  left: 1216px;
+  width: 275px;
+  height: 124px;
+  transform: rotate(3deg);
+}
+.tel1 {
+  position: absolute;
+  background: url(images/tel1.png);
+  background-size: 100%;
+  top: 5px;
+  width: 601px;
+  height: 920px;
+  transform: rotate(32deg);
+}
+.tel2 {
+  position: absolute;
+  background: url(images/tel2.png);
+  background-size: 100%;
+  top: 370px;
+  left: 332px;
+  width: 471px;
+  height: 568px;
+  transform: rotate(355deg);
+}
+.nishtyak {
+  position: absolute;
+  background: url(images/nishtyak.png);
+  background-size: 100%;
+  top: 719px;
+  left: 167px;
+  width: 318px;
+  height: 116px;
+  transform: rotate(341deg);
+}
+
+.lenta1 {
+  position: absolute;
+  background-color: white;
+  width: 1539px;
+  height: 100px;
+  top: 911px;
+  outline: 2px solid black;
+  transform: rotate(355deg);
+}
+.soon {
+  position: relative;
+  width: 836px;
+  height: 86px;
+  top: 14px;
+  background: url(images/soon.svg);
+  background-size: 100%;
+  margin: 0 auto;
+}
+.lenta2 {
+  position: absolute;
+  background-color: white;
+  width: 1539px;
+  height: 100px;
+  top: 1020px;
+  outline: 2px solid black;
+  transform: rotate(1deg);
+}
+.predupredit {
+  position: relative;
+  width: 590px;
+  height: 74px;
+  top: 13px;
+  background: url(images/predupredit.png);
+  background-size: 100%;
+  margin: 0 auto;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  height: 170px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  outline: 2px solid black;
+  box-shadow: 0px -90px 50px rgba(255, 255, 255, 0.5);
+}
+.logohse {
+  position: relative;
+  width: 300px;
+  height: 133px;
+  margin: auto 0;
+  left: 30px;
+  background: url(images/logohse.png);
+  background-size: 100%;
+}
+.text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 60px;
+  margin: auto 0;
+  gap: 10px;
+}
+.icons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: 260px;
+  margin: auto auto;
+  gap: 30px;
+}
+.vk {
+  position: relative;
+  width: 100px;
+  height: 68px;
+  margin: auto 0;
+  left: 20px;
+  background: url(images/vk.svg);
+  background-size: 100%;
+}
+.tg {
+  position: relative;
+  width: 83px;
+  height: 79px;
+  margin: auto 0;
+  left: 20px;
+  background: url(images/tg.svg);
+  background-size: 100%;
+}
+.odnokl {
+  position: relative;
+  width: 48px;
+  height: 82px;
+  margin: auto 0;
+  left: 20px;
+  background: url(images/odnokl.svg);
+  background-size: 100%;
+  margin-left: 20px;
 }
