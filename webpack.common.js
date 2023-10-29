@@ -137,6 +137,11 @@ module.exports = {
       filename: './about.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/zaglushka.html',
+      filename: './zaglushka.html'
+    }),
+
     //Partials
     new HtmlWebpackPartialsPlugin([
       {
