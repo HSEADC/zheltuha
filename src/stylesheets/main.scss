@@ -1,0 +1,66 @@
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  outline: 2px solid black;
+  background-color: #fbf448;
+  display: flex;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  justify-content: space-between;
+}
+.arhiv {
+  position: relative;
+  margin: 23px 0px 23px 25px;
+  width: 95px;
+  height: 24px;
+  background: url(images/arhiv.svg);
+  background-size: 100%;
+}
+.rasledovaniya {
+  position: relative;
+  margin: 20px 0px 20px 30px;
+  width: 258px;
+  height: 31px;
+  background: url(images/rasledovaniya.svg);
+  background-size: 100%;
+}
+.veruneveru {
+  position: relative;
+  margin: 19px 30px 19px 0px;
+  width: 229px;
+  height: 28px;
+  background: url(images/veruneveru.svg);
+  background-size: 100%;
+}
+.tests {
+  position: relative;
+  margin: 20px 30px 20px 0px;
+  width: 105px;
+  height: 29px;
+  background: url(images/tests.svg);
+  background-size: 100%;
+}
+.onas {
+  position: relative;
+  margin: 22px 25px 22px 0;
+  width: 95px;
+  height: 26px;
+  background: url(images/onas.svg);
+  background-size: 100%;
+}
+.logo {
+  position: relative;
+  margin: 5px 186px 5px 288px;
+  width: 124px;
+  height: 60px;
+  background: url(images/logo.png);
+  background-size: 100%;
+}
+.menu p {
+  font-family: 'Verdanab';
+  font-size: 26px;
+  line-height: 96%;
+  color: white;
+  text-shadow: 2px 0 0 black, 0 2px 0 black, -2px 0 0 black, 0 -2px 0 black;
+}

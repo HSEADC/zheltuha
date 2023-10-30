@@ -107,10 +107,6 @@ module.exports = {
       template: './src/library/papa.html',
       filename: './library/papa.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/games/tests.html',
-      filename: './games/tests.html'
-    }),
 
     new HtmlWebpackPlugin({
       template: './src/investigations/deepfake.html',
@@ -118,15 +114,18 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/games.html',
-      filename: './games.html'
+      template: './src/veruneveru.html',
+      filename: './veruneveru.html'
     }),
 
     new HtmlWebpackPlugin({
       template: './src/library.html',
       filename: './library.html'
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/tests.html',
+      filename: './tests.html'
+    }),
     new HtmlWebpackPlugin({
       template: './src/investigations.html',
       filename: './investigations.html'

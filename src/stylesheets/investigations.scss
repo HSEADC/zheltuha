@@ -1,0 +1,105 @@
+.investigations {
+  .screen {
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    background-color: white;
+    overflow: hidden;
+  }
+  .columns {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 70px;
+    width: 100%;
+  }
+  .column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  .new {
+    position: relative;
+    outline: 2px solid black;
+    background-color: white;
+  }
+  .pugacheva {
+    position: relative;
+    margin: 25px auto 0 auto;
+    width: 250px;
+    height: 310px;
+    background: url(images/pugacheva.png);
+    background-size: 100%;
+  }
+  .pugachevatext {
+    position: relative;
+    margin: 15px auto 0 auto;
+    width: 250px;
+    height: 107px;
+    background: url(images/pugachevatext.svg);
+    background-size: 100%;
+  }
+  .text p:nth-of-type(1) {
+    font-family: 'Verdanab';
+    font-size: 14px;
+    line-height: 96%;
+    text-align: center;
+    margin: 15px auto 0 auto;
+  }
+  .text p:nth-of-type(2) {
+    font-family: 'Verdanar';
+    font-size: 18px;
+    line-height: 96%;
+    text-align: center;
+    margin: 15px auto 25px auto;
+  }
+  .galkin {
+    position: relative;
+    margin: 25px auto 0 auto;
+    width: 250px;
+    height: 168px;
+    background: url(images/galkin.png);
+    background-size: 100%;
+  }
+  .galkintext {
+    position: relative;
+    margin: 15px auto 0 auto;
+    width: 250px;
+    height: 107px;
+    background: url(images/galkintext.svg);
+    background-size: 100%;
+  }
+  .xiskaridze {
+    position: relative;
+    margin: 25px auto 0 auto;
+    width: 250px;
+    height: 475px;
+    background: url(images/xiskaridze.png);
+    background-size: 100%;
+  }
+  .hzkto {
+    position: relative;
+    margin: 25px auto 0 auto;
+    width: 250px;
+    height: 181px;
+    background: url(images/hzkto.png);
+    background-size: 100%;
+  }
+  .papa {
+    position: relative;
+    margin: 25px auto 0 auto;
+    width: 250px;
+    height: 477px;
+    background: url(images/papa.png);
+    background-size: 100%;
+  }
+  .proidite {
+    position: relative;
+    margin: 15px auto;
+    width: 250px;
+    height: 371px;
+    background: url(images/proidite.svg);
+    background-size: 100%;
+  }
+}
