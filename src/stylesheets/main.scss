@@ -1,3 +1,19 @@
+html::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  border: 20px solid black;
+}
 .menu {
   position: fixed;
   width: 100%;
@@ -49,29 +65,44 @@
   background: url(images/veruneveru.svg);
   background-size: 100%;
 }
-.stateveruneverua {
+.stateveruneveru {
   position: relative;
-  margin: 23px 0px 23px 25px;
-  width: 95px;
-  height: 24px;
+  margin: 19px 30px 19px 0px;
+  width: 229px;
+  height: 28px;
   background: url(images/veruneveru2.svg);
   background-size: 100%;
 }
 .tests {
   position: relative;
   margin: 20px 30px 20px 0px;
-  width: 105px;
-  height: 29px;
+  width: 107px;
+  height: 32px;
   background: url(images/tests.svg);
   background-size: 100%;
 }
-
+.statetests {
+  position: relative;
+  margin: 22px 30px 20px 0px;
+  width: 103px;
+  height: 26px;
+  background: url(images/tests2.svg);
+  background-size: 100%;
+}
 .onas {
   position: relative;
   margin: 22px 25px 22px 0;
   width: 95px;
   height: 26px;
   background: url(images/onas.svg);
+  background-size: 100%;
+}
+.stateonas {
+  position: relative;
+  margin: 22px 25px 22px 0;
+  width: 95px;
+  height: 26px;
+  background: url(images/onas2.svg);
   background-size: 100%;
 }
 .logo {

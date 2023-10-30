@@ -1,12 +1,3 @@
-# Static Site Boilerplate
+Медиа-сервис ЖЕЛТУХА
 
-## How to start
-
-Clone the repository, install packages, start
-
-```
-git clone https://github.com/ZakharDay/static-site-boilerplate.git
-cd static-site-boilerplate
-yarn
-yarn start
-```
+**учим критически мыслить и не доверять желтухе!**
