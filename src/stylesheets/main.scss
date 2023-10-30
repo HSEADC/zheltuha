@@ -17,12 +17,28 @@
   background: url(images/arhiv.svg);
   background-size: 100%;
 }
+.statearhiv {
+  position: relative;
+  margin: 23px 0px 23px 25px;
+  width: 95px;
+  height: 24px;
+  background: url(images/arhiv2.svg);
+  background-size: 100%;
+}
 .rasledovaniya {
   position: relative;
   margin: 20px 0px 20px 30px;
   width: 258px;
   height: 31px;
   background: url(images/rasledovaniya.svg);
+  background-size: 100%;
+}
+.staterasledovaniya {
+  position: relative;
+  margin: 23px 0px 23px 25px;
+  width: 95px;
+  height: 24px;
+  background: url(images/rasledovaniya2.svg);
   background-size: 100%;
 }
 .veruneveru {
@@ -33,6 +49,14 @@
   background: url(images/veruneveru.svg);
   background-size: 100%;
 }
+.stateveruneverua {
+  position: relative;
+  margin: 23px 0px 23px 25px;
+  width: 95px;
+  height: 24px;
+  background: url(images/veruneveru2.svg);
+  background-size: 100%;
+}
 .tests {
   position: relative;
   margin: 20px 30px 20px 0px;
@@ -41,6 +65,7 @@
   background: url(images/tests.svg);
   background-size: 100%;
 }
+
 .onas {
   position: relative;
   margin: 22px 25px 22px 0;
