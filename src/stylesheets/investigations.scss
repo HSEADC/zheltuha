@@ -2,107 +2,139 @@
   .screen {
     position: relative;
     width: 100%;
-    height: 1024px;
-    background-color: white;
+    height: 100%;
+    background-color: #fcf549;
     overflow: hidden;
   }
   .columns {
     position: relative;
     display: flex;
     flex-direction: row;
-    top: 70px;
     width: 100%;
+    height: 100%;
+    padding: 70px 35px 0 35px;
   }
   .column {
     position: relative;
     display: flex;
     flex-direction: column;
     width: 25%;
+    outline: 2px solid black;
+    overflow: scroll;
+  }
+  .column::-webkit-scrollbar {
+    display: none;
   }
   .new {
     position: relative;
     outline: 2px solid black;
     background-color: white;
+    padding: 25px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .tag {
+    font-family: 'Verdanab';
+    display: inline-block;
+    font-size: 17px;
+    line-height: 96%;
+    background-color: white;
+    outline: 2px solid black;
+    padding: 8px 10px;
+    text-align: center;
+  }
+  .tagfamily {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
   }
   .yellow {
     background-color: #fbf448;
+    padding: 120px 20px 120px 20px;
+  }
+  .igolki {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 130px;
+    background: url(images/igolki.svg);
+    background-size: 100%;
+  }
+  .igolki2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+    width: 160px;
+    height: 130px;
+    background: url(images/igolki.svg);
+    background-size: 100%;
   }
   .pugacheva {
     position: relative;
-    margin: 25px auto 0 auto;
-    width: 250px;
-    height: 310px;
+    width: 100%;
+    height: 419px;
+    outline: 2px solid black;
     background: url(images/pugacheva.png);
     background-size: 100%;
+    margin-bottom: 10px;
   }
-  .pugachevatext {
+
+  .galkini {
     position: relative;
-    margin: 15px auto 0 auto;
-    width: 250px;
-    height: 107px;
-    background: url(images/pugachevatext.svg);
+    width: 100%;
+    height: 264px;
+    outline: 2px solid black;
+    background: url(images/galkini.png);
     background-size: 100%;
+    margin-bottom: 10px;
   }
-  .text p:nth-of-type(1) {
-    font-family: 'Verdanab';
-    font-size: 14px;
-    line-height: 96%;
-    text-align: center;
-    margin: 15px auto 0 auto;
-  }
-  .text p:nth-of-type(2) {
-    font-family: 'Verdanar';
-    font-size: 18px;
-    line-height: 96%;
-    text-align: center;
-    margin: 15px auto 25px auto;
-  }
+
   .galkin {
     position: relative;
-    margin: 25px auto 0 auto;
-    width: 250px;
-    height: 168px;
+    width: 100%;
+    height: 264px;
+    outline: 2px solid black;
     background: url(images/galkin.png);
     background-size: 100%;
+    margin-bottom: 10px;
   }
-  .galkintext {
+
+  .samka {
     position: relative;
-    margin: 15px auto 0 auto;
-    width: 250px;
-    height: 107px;
-    background: url(images/galkintext.svg);
+    width: 100%;
+    height: 470px;
+    outline: 2px solid black;
+    background: url(images/samka.png);
     background-size: 100%;
+    margin-bottom: 10px;
   }
-  .xiskaridze {
+
+  .guzeeva {
     position: relative;
-    margin: 25px auto 0 auto;
-    width: 250px;
-    height: 475px;
-    background: url(images/xiskaridze.png);
+    width: 100%;
+    height: 317px;
+    outline: 2px solid black;
+    background: url(images/guzeeva.png);
     background-size: 100%;
+    margin-bottom: 10px;
   }
-  .hzkto {
+
+  .prezi {
     position: relative;
-    margin: 25px auto 0 auto;
-    width: 250px;
-    height: 181px;
-    background: url(images/hzkto.png);
+    width: 100%;
+    height: 264px;
+    outline: 2px solid black;
+    background: url(images/prezi.png);
     background-size: 100%;
-  }
-  .papa {
-    position: relative;
-    margin: 25px auto 0 auto;
-    width: 250px;
-    height: 477px;
-    background: url(images/papa.png);
-    background-size: 100%;
-  }
-  .proidite {
-    position: relative;
-    margin: 15px auto;
-    width: 250px;
-    height: 371px;
-    background: url(images/proidite.svg);
-    background-size: 100%;
+    margin-bottom: 10px;
   }
 }
