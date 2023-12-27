@@ -12,61 +12,43 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
-    padding: 70px 35px 0 35px;
+    padding: 3.65vw 1.82vw 0 1.82vw;
+    justify-content: center;
   }
+
   .column {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 25%;
-    outline: 2px solid black;
+    width: 100%;
+    outline: 0.2vw solid black;
     overflow: scroll;
   }
+
   .column::-webkit-scrollbar {
     display: none;
   }
   .new {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.2vw solid black;
     background-color: white;
-    padding: 25px 20px 30px 20px;
+    padding: 1.3vw 1.04vw 1.56vw 1.04vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0.52vw;
     text-align: center;
   }
-  // .tag {
-  //   font-family: 'Verdanab';
-  //   display: inline-block;
-  //   font-size: 17px;
-  //   line-height: 96%;
-  //   background-color: white;
-  //   outline: 2px solid black;
-  //   padding: 8px 10px;
-  //   text-align: center;
-  // }
-  // .tagfamily {
-  //   position: relative;
-  //   display: flex;
-  //   align-items: center;
-  //   gap: 10px;
-  //   width: 100%;
-  //   flex-wrap: wrap;
-  //   justify-content: center;
-  //   margin-bottom: 10px;
-  // }
-
   .yellow {
     background-color: #fbf448;
-    padding: 120px 20px 120px 20px;
+    padding: 6.25vw 1.04vw 6.25vw 1.04vw;
   }
   .igolki {
     position: absolute;
     top: 0;
     left: 0;
-    width: 160px;
-    height: 130px;
+    width: 8.33vw;
+    height: 6.77vw;
     background: url(images/igolki.svg);
     background-size: 100%;
   }
@@ -75,68 +57,68 @@
     bottom: 0;
     right: 0;
     transform: rotate(180deg);
-    width: 160px;
-    height: 130px;
+    width: 8.33vw;
+    height: 6.77vw;
     background: url(images/igolki.svg);
     background-size: 100%;
   }
   .pugacheva {
     position: relative;
     width: 100%;
-    height: 419px;
-    outline: 2px solid black;
+    height: 27.82vw;
+    outline: 0.2vw solid black;
     background: url(images/pugacheva.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 
   .galkini {
     position: relative;
     width: 100%;
-    height: 264px;
-    outline: 2px solid black;
+    height: 17.75vw;
+    outline: 0.2vw solid black;
     background: url(images/galkini.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 
   .galkin {
     position: relative;
     width: 100%;
-    height: 264px;
-    outline: 2px solid black;
+    height: 17.75vw;
+    outline: 0.2vw solid black;
     background: url(images/galkin.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 
   .samka {
     position: relative;
     width: 100%;
-    height: 470px;
-    outline: 2px solid black;
+    height: 31.48vw;
+    outline: 0.2vw solid black;
     background: url(images/samka.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 
   .guzeeva {
     position: relative;
     width: 100%;
-    height: 317px;
-    outline: 2px solid black;
+    height: 21.51vw;
+    outline: 0.2vw solid black;
     background: url(images/guzeeva.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 
   .prezi {
     position: relative;
     width: 100%;
-    height: 264px;
-    outline: 2px solid black;
+    height: 17.75vw;
+    outline: 0.2vw solid black;
     background: url(images/prezi.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 }

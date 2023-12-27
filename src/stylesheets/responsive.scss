@@ -1,0 +1,200 @@
+@media all and (max-width: 1020px) {
+  .column.four {
+    display: none;
+  }
+  //   p {
+  //     font-family: 'Verdanar';
+  //     font-size: 1.04vw;
+  //     line-height: 96%;
+  //   }
+
+  //   h3 {
+  //     font-family: 'zheltuhaRomanM';
+  //     font-size: 3.65vw;
+  //     line-height: 95%;
+  //     letter-spacing: -0.31vw;
+  //     hyphens: auto;
+  //   }
+  //   .tag {
+  //     font-family: 'Verdanab';
+  //     display: inline-block;
+  //     font-size: 0.89vw;
+  //     line-height: 96%;
+  //     background-color: white;
+  //     outline: 0.15vw solid black;
+  //     padding: 0.42vw 0.52vw;
+  //     text-align: center;
+  //   }
+  //   .tagfamily {
+  //     position: relative;
+  //     display: flex;
+  //     align-items: center;
+  //     gap: 0.52vw;
+  //     flex-wrap: wrap;
+  //     margin-bottom: 0.52vw;
+  //   }
+
+  //   .investigations {
+  //     .new {
+  //       position: relative;
+  //       outline: 0.2vw solid black;
+  //       background-color: white;
+  //       padding: 1.3vw 1.04vw 1.56vw 1.04vw;
+  //       display: flex;
+  //       flex-direction: column;
+  //       align-items: center;
+  //       gap: 0.52vw;
+  //       text-align: center;
+  //     }
+  //     .columns {
+  //       position: relative;
+  //       display: flex;
+  //       flex-direction: row;
+  //       width: 100%;
+  //       height: 100%;
+  //       padding: 3.65vw 1.82vw 0 1.82vw;
+  //       justify-content: center;
+  //     }
+
+  //     .column {
+  //       position: relative;
+  //       display: flex;
+  //       flex-direction: column;
+  //       width: 100%;
+  //       outline: 0.2vw solid black;
+  //       overflow: scroll;
+  //     }
+  //   }
+}
+
+@media all and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  .menu {
+    background-color: white;
+    height: 12vw;
+    padding: 2vw 2.82vw;
+  }
+  .arhiv {
+    display: none;
+  }
+  .rasledovaniya {
+    display: none;
+  }
+  .veruneveru {
+    display: none;
+  }
+  .tests {
+    display: none;
+  }
+  .onas {
+    display: none;
+  }
+  .statearhiv {
+    display: none;
+  }
+  .staterasledovaniya {
+    display: none;
+  }
+  .stateveruneveru {
+    display: none;
+  }
+  .statetests {
+    display: none;
+  }
+  .stateonas {
+    display: none;
+  }
+  .trilinii {
+    display: block;
+  }
+  .linii {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6vw;
+  }
+
+  .liniya {
+    width: 7vw;
+    background-color: black;
+    height: 0.4vw;
+  }
+
+  .righttext {
+    display: none;
+  }
+  .lefttext {
+    display: none;
+  }
+  .logo {
+    position: relative;
+    width: 18.46vw;
+    height: 8.13vw;
+  }
+
+  .column.three {
+    display: none;
+  }
+  .column.two {
+    display: none;
+  }
+
+  p {
+    font-family: 'Verdanar';
+    font-size: 6.04vw;
+    line-height: 96%;
+  }
+  h3 {
+    font-family: 'zheltuhaRomanM';
+    font-size: 17.4vw;
+    line-height: 95%;
+    letter-spacing: -1.51vw;
+    hyphens: auto;
+  }
+  .tag {
+    font-family: 'Verdanab';
+    display: inline-block;
+    font-size: 5vw;
+    line-height: 96%;
+    background-color: white;
+    outline: 0.4vw solid black;
+    padding: 1.8vw 1.8vw;
+    text-align: center;
+  }
+
+  .tagfamily {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+    flex-wrap: wrap;
+    margin-bottom: 2vw;
+    justify-content: center;
+  }
+
+  .investigations {
+    .new {
+      padding: 5.3vw 4.04vw 7.56vw 4.04vw;
+      gap: 3.52vw;
+      outline: 0.4vw solid black;
+    }
+    .columns {
+      padding: 11.65vw 4.82vw 0 4.82vw;
+    }
+    .column {
+      outline: 0.4vw solid black;
+    }
+    .pugacheva {
+      width: 100%;
+      height: 106.82vw;
+      outline: 0.4vw solid black;
+      margin-bottom: 2vw;
+    }
+    .galkin {
+      width: 100%;
+      height: 67.75vw;
+      outline: 0.4vw solid black;
+      margin-bottom: 2vw;
+    }
+  }
+}
