@@ -118,8 +118,8 @@ module.exports = {
       filename: './veruneveru.html'
     }),
     new HtmlWebpackPlugin({
-      template: './src/vanga.html',
-      filename: './vanga.html'
+      template: './src/library/vanga.html',
+      filename: './library/vanga.html'
     }),
     new HtmlWebpackPlugin({
       template: './src/library.html',
