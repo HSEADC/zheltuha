@@ -141,6 +141,11 @@ module.exports = {
       filename: './zaglushka.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/vanga.html',
+      filename: './vanga.html'
+    }),
+
     //Partials
     new HtmlWebpackPartialsPlugin([
       {
