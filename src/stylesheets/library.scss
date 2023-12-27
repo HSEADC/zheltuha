@@ -1,0 +1,186 @@
+.library {
+  .screen {
+    position: relative;
+    width: 100%;
+    background-color: #fcf549;
+    padding: 70px 35px 0 35px;
+  }
+
+  .filter {
+    position: relative;
+    outline: 2px solid black;
+    background-color: white;
+    padding: 25px 60px;
+    margin: 35px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tegi {
+    position: relative;
+    outline: 2px solid black;
+    background-color: #fcf549;
+    padding: 15px 120px;
+    text-align: center;
+  }
+
+  .data {
+    position: relative;
+    outline: 2px solid black;
+    background-color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  .hypewindow {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hype {
+    position: relative;
+    outline: 2px solid black;
+    background-color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  .chislohypa {
+    position: relative;
+    outline: 2px solid black;
+    background-color: black;
+    padding: 15px 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .primenit {
+    position: relative;
+    outline: 2px solid black;
+    background-color: black;
+    padding: 15px 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .ochistit {
+    position: relative;
+    outline: 2px solid black;
+    background-color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  .content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .card {
+    position: relative;
+    outline: 2px solid black;
+    background-color: white;
+    padding: 25px 20px 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: calc(100% / 3);
+    text-align: center;
+    justify-content: center;
+  }
+
+  .content2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 15px 0px 50px 0px;
+    gap: 15px;
+  }
+
+  .card2 {
+    position: relative;
+    outline: 2px solid black;
+    background-color: white;
+    padding: 25px 20px 25px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 50%;
+    height: 350px;
+    text-align: left;
+  }
+
+  .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: left;
+    width: 65%;
+  }
+
+  .vanga {
+    position: relative;
+    width: 100%;
+    height: 235px;
+    outline: 2px solid black;
+    background: url(images/vanga.png);
+    background-size: 100%;
+    margin-bottom: 10px;
+  }
+
+  .bashnya {
+    position: relative;
+    width: 100%;
+    height: 235px;
+    outline: 2px solid black;
+    background: url(images/bashnya.png);
+    background-size: 100%;
+    margin-bottom: 10px;
+  }
+
+  .buter {
+    position: relative;
+    width: 100%;
+    height: 235px;
+    outline: 2px solid black;
+    background: url(images/buter.png);
+    background-size: 100%;
+    margin-bottom: 10px;
+  }
+
+  .chicatilo {
+    position: relative;
+    width: 35%;
+    height: 100%;
+    outline: 2px solid black;
+    background: url(images/chicatilo.png);
+    background-size: cover;
+  }
+
+  .pi {
+    position: relative;
+    width: 35%;
+    height: 100%;
+    outline: 2px solid black;
+    background: url(images/pi.png);
+    background-size: cover;
+  }
+
+  .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 12px;
+    display: inline-block;
+    font-size: 35px;
+    background-color: white;
+    outline: 2px solid black;
+    font-family: 'Verdanab';
+  }
+}
