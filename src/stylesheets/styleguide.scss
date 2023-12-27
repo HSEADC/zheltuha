@@ -2,18 +2,21 @@
     .stylecover {
         background-image: url(images/stylecover.png);
     }
+    h1 {
+        
+    }
     .grid {
     display: grid;
     grid-template-columns: 5fr 7fr;
     grid-template-rows: auto auto auto auto auto auto auto;
-    grid-template-areas:
-        'brand brand-info'
-        'logo logo-info'
-        'colors colors-info'
-        'typo typo-info'
-        'grids grids-info'
-        'graphics graphics-info'
-        'mockups mockups-info';
+    // grid-template-areas:
+    //     'brand brand-info'
+    //     'logo logo-info'
+    //     'colors colors-info'
+    //     'typo typo-info'
+    //     'grids grids-info'
+    //     'graphics graphics-info'
+    //     'mockups mockups-info';
     width: 100%;
     padding: 0 40px;
 }
