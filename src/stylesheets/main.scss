@@ -120,3 +120,102 @@ body::-webkit-scrollbar-thumb {
   color: white;
   text-shadow: 2px 0 0 black, 0 2px 0 black, -2px 0 0 black, 0 -2px 0 black;
 }
+
+p {
+  font-family: 'Verdanar';
+  font-size: 20px;
+  line-height: 96%;
+}
+
+h3 {
+  font-family: 'zheltuhaRomanM';
+  font-size: 70px;
+  line-height: 95%;
+  letter-spacing: -6px;
+  hyphens: auto;
+}
+
+h5 {
+  font-family: 'Verdanab';
+  font-size: 22px;
+  line-height: 96%;
+}
+
+.tag {
+  font-family: 'Verdanab';
+  display: inline-block;
+  font-size: 17px;
+  line-height: 96%;
+  background-color: white;
+  outline: 2px solid black;
+  padding: 8px 10px;
+  text-align: center;
+}
+.tagfamily {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  padding: 22px 35px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  outline: 2px solid black;
+  box-shadow: 0px -90px 50px rgba(255, 255, 255, 0.5);
+  justify-content: space-between;
+}
+.righttext {
+  display: flex;
+  gap: 35px;
+}
+.logohse {
+  position: relative;
+  width: 204px;
+  height: 90px;
+  background: url(images/logohse.png);
+  background-size: 100%;
+}
+.imena {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+.icons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  right: 0;
+}
+.vk {
+  position: relative;
+  width: 86px;
+  height: 58px;
+  background: url(images/vk.svg);
+  background-size: 100%;
+}
+.tg {
+  position: relative;
+  width: 68px;
+  height: 65px;
+  background: url(images/tg.svg);
+  background-size: 100%;
+}
+.odnokl {
+  position: relative;
+  width: 42px;
+  height: 71px;
+  background: url(images/odnokl.svg);
+  background-size: 100%;
+  margin-left: 20px;
+}
