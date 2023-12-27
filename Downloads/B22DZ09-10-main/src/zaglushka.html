@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="images/ico" href="images/favicon.ico" />
+    <link rel="icon" type="images/png" href="images/favicon.png" />
+    <title>Заглушка</title>
+  </head>
+  <body class="zaglushka">
+    <section class="screen">
+      <img src="images/trump.gif" alt="" />
+      <div class="h1"></div>
+      <div class="h2"></div>
+
+      <div class="email">
+        <div class="text"></div>
+        <div class="pole">
+          <form
+            id="my-form"
+            action="https://formspree.io/f/mdorbvjy"
+            method="POST"
+          >
+            <input type="email" name="email" placeholder="ВАШ EMAIL" />
+            <button id="my-form-button">
+              <div class="arrow"></div>
+            </button>
+          </form>
+
+          <script>
+            var form = document.getElementById('my-form')
+
+            async function handleSubmit(event) {
+              event.preventDefault()
+              var status = document.getElementById('my-form-status')
+              var data = new FormData(event.target)
+              fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                  Accept: 'application/json'
+                }
+              })
+                .then((response) => {
+                  if (response.ok) {
+                    form.reset()
+                  } else {
+                    response.json().then((data) => {
+                      if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data['errors']
+                          .map((error) => error['message'])
+                          .join(', ')
+                      } else {
+                        status.innerHTML =
+                          'Oops! There was a problem submitting your form'
+                      }
+                    })
+                  }
+                })
+                .catch((error) => {
+                  status.innerHTML =
+                    'Oops! There was a problem submitting your form'
+                })
+            }
+            form.addEventListener('submit', handleSubmit)
+          </script>
+        </div>
+      </div>
+      <!-- <div class="done">
+        <p>ВАШ EMAIL ОТПРАВЛЕН!</p>
+      </div> -->
+      <div class="opisanie">
+        <p>
+          Мы научим тебя критически <br />
+          мыслить, распознавать <br />
+          дипфейки и лживые <br />
+          новости и читать только <br />
+          надежные источники!
+        </p>
+      </div>
+      <div class="ogon"></div>
+      <div class="yavshoke"></div>
+    </section>
+  </body>
+</html>
