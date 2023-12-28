@@ -11,11 +11,11 @@
         outline: 3px solid black;
         align-items: center;
         justify-content: space-between;
-        margin: 5vw 35px;
-        padding: 1vw 40px;
+        margin: 5vw 1.8vw;
+        padding: 1vw 2.1vw;
     }
 
-    .logotipchik > img, .colors > img,  .typography > img, .gridui > img, .graphics > img,{
+    .logotipchik > img, .colors > img,  .typography > img, .gridui > img, .graphics > img, .mockups > img {
         width: 100%;
     }
 
@@ -25,9 +25,16 @@
     grid-template-rows: auto auto auto auto auto auto auto;
     row-gap: 6vw;
     width: 100%;
-    padding: 0 35px;
+    padding: 0 1.8vw;
     }
     
+    .grid-p > p::after {
+        content: "";
+        width: 50px;
+        height: 50px;
+        background-color: white;
+    }
+
     .grid-h2 {
         inline-size: min-content;
         background-color: white;
@@ -56,9 +63,9 @@
         margin-bottom: 3vw;
     }
 
-    .grid-h2, .colors > img, .typography > img, .gridui > img {
+    .grid-h2, .colors > img, .typography > img, .gridui > img, .mockups > img {
         outline: 3px solid black;
-        box-shadow: 10px 10px black;
+        box-shadow: 0.5vw 0.5vw black;
     }
 
     .colors > img {
@@ -74,7 +81,7 @@
         margin-top: 2vw;
     }
 
-    .graphics > img {
+    .graphics > img, .mockups > img {
         margin-bottom: 3vw;
     }
 }
