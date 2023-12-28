@@ -1,9 +1,12 @@
 html::-webkit-scrollbar {
   width: 0;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
 body::-webkit-scrollbar {
-  width: 12px;
+  width: 1.04vw;
 }
 
 body::-webkit-scrollbar-track {
@@ -12,173 +15,192 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: black;
-  border: 20px solid black;
+  border: 1.04vw solid black;
 }
 .menu {
   position: fixed;
   width: 100%;
-  height: 70px;
-  outline: 2px solid black;
+  height: 3.65vw;
+  outline: 0.15vw solid black;
   background-color: #fbf448;
   display: flex;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0.16vw 0.31vw rgba(0, 0, 0, 0.5);
   z-index: 1;
   justify-content: space-between;
+  padding: 1.04vw 1.82vw;
 }
+.trilinii {
+  display: none;
+}
+.linii {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1.61vw;
+}
+.liniya {
+  width: 2vw;
+  background-color: black;
+  height: 0.15vw;
+}
+
 .arhiv {
   position: relative;
-  margin: 23px 0px 23px 25px;
-  width: 96px;
-  height: 24px;
+  width: 5.1vw;
+  height: 1.2vw;
   background: url(images/arhiv.svg);
   background-size: 100%;
+  margin: 0.2vw 0 0 0;
 }
 .statearhiv {
   position: relative;
-  margin: 23px 0px 23px 25px;
-  width: 96px;
-  height: 24px;
+  width: 5.1vw;
+  height: 1.2vw;
   background: url(images/arhiv2.svg);
   background-size: 100%;
+  margin: 0.2vw 0 0 0;
 }
 .rasledovaniya {
   position: relative;
-  margin: 20px 0px 20px 30px;
-  width: 258px;
-  height: 31px;
+  width: 13.44vw;
+  height: 1.61vw;
   background: url(images/rasledovaniya2.svg);
   background-size: 100%;
 }
 .staterasledovaniya {
   position: relative;
-  margin: 20px 0px 20px 30px;
-  width: 258px;
-  height: 31px;
+  width: 13.44vw;
+  height: 1.61vw;
   background: url(images/rasledovaniya.svg);
   background-size: 100%;
 }
 .veruneveru {
   position: relative;
-  margin: 19px 30px 19px 0px;
-  width: 229px;
-  height: 28px;
+  width: 11.93vw;
+  height: 1.5vw;
   background: url(images/veruneveru.svg);
   background-size: 100%;
 }
 .stateveruneveru {
   position: relative;
-  margin: 19px 30px 19px 0px;
-  width: 229px;
-  height: 28px;
+  width: 11.93vw;
+  height: 1.5vw;
   background: url(images/veruneveru2.svg);
   background-size: 100%;
 }
 .tests {
   position: relative;
-  margin: 20px 30px 20px 0px;
-  width: 107px;
-  height: 32px;
+  width: 5.37vw;
+  height: 1.37vw;
   background: url(images/tests.svg);
   background-size: 100%;
+  margin: 0.1vw 0 0 0;
 }
 .statetests {
   position: relative;
-  margin: 22px 30px 20px 0px;
-  width: 103px;
-  height: 26px;
+  width: 5.37vw;
+  height: 1.37vw;
   background: url(images/tests2.svg);
   background-size: 100%;
+  margin: 0.1vw 0 0 0;
 }
 .onas {
   position: relative;
-  margin: 22px 25px 22px 0;
-  width: 95px;
-  height: 26px;
+  width: 4.95vw;
+  height: 1.35vw;
   background: url(images/onas.svg);
   background-size: 100%;
+  margin: 0.1vw 0 0 0;
 }
 .stateonas {
   position: relative;
-  margin: 22px 25px 22px 0;
-  width: 95px;
-  height: 26px;
+  width: 4.95vw;
+  height: 1.35vw;
   background: url(images/onas2.svg);
   background-size: 100%;
+  margin: 0.1vw 0 0 0;
 }
 .logo {
-  position: relative;
-  margin: 5px 186px 5px 288px;
-  width: 124px;
-  height: 60px;
+  position: absolute;
+  margin: -0.68vw auto;
+  width: 6.46vw;
+  height: 3.13vw;
   background: url(images/logo.png);
   background-size: 100%;
 }
 .menu p {
   font-family: 'Verdanab';
-  font-size: 26px;
+  font-size: 1.35vw;
   line-height: 96%;
   color: white;
-  text-shadow: 2px 0 0 black, 0 2px 0 black, -2px 0 0 black, 0 -2px 0 black;
+  text-shadow: 0.1vw 0 0 black, 0 0.1vw 0 black, -0.1vw 0 0 black,
+    0 -0.1vw 0 black;
 }
 
 p {
   font-family: 'Verdanar';
-  font-size: 20px;
+  font-size: 1.04vw;
   line-height: 96%;
 }
 
 h3 {
   font-family: 'zheltuhaRomanM';
-  font-size: 70px;
+  font-size: 4.5vw;
   line-height: 95%;
-  letter-spacing: -6px;
+  letter-spacing: -0.31vw;
   hyphens: auto;
 }
 
 h5 {
   font-family: 'Verdanab';
-  font-size: 22px;
+  font-size: 1.15vw;
   line-height: 96%;
 }
 
 .tag {
   font-family: 'Verdanab';
   display: inline-block;
-  font-size: 17px;
+  font-size: 1.1vw;
   line-height: 96%;
   background-color: white;
-  outline: 2px solid black;
-  padding: 8px 10px;
+  outline: 0.15vw solid black;
+  padding: 0.42vw 0.52vw;
   text-align: center;
 }
 .tagfamily {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.52vw;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 0.52vw;
 }
 
 .footer {
   position: relative;
   width: 100%;
-  padding: 22px 35px;
+  padding: 1.15vw 1.82vw;
   background-color: white;
   overflow: hidden;
   display: flex;
-  outline: 2px solid black;
-  box-shadow: 0px -90px 50px rgba(255, 255, 255, 0.5);
+  outline: 0.15vw solid black;
+  box-shadow: 0px -4.69vw 2.6vw rgba(255, 255, 255, 0.5);
   justify-content: space-between;
+  bottom: 0px;
 }
 .righttext {
   display: flex;
-  gap: 35px;
+  gap: 1.82vw;
+}
+.lefttext {
+  display: flex;
+  gap: 1.82vw;
 }
 .logohse {
   position: relative;
-  width: 204px;
-  height: 90px;
+  width: 10.63vw;
+  height: 4.69vw;
   background: url(images/logohse.png);
   background-size: 100%;
 }
@@ -187,35 +209,35 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5px 0px;
+  padding: 0.26vw 0px;
 }
 .icons {
   position: relative;
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 1.56vw;
   align-items: center;
   right: 0;
 }
 .vk {
   position: relative;
-  width: 86px;
-  height: 58px;
+  width: 4.48vw;
+  height: 3.02vw;
   background: url(images/vk.svg);
   background-size: 100%;
 }
 .tg {
   position: relative;
-  width: 68px;
-  height: 65px;
+  width: 3.54vw;
+  height: 3.39vw;
   background: url(images/tg.svg);
   background-size: 100%;
 }
 .odnokl {
   position: relative;
-  width: 42px;
-  height: 71px;
+  width: 2.19vw;
+  height: 3.7vw;
   background: url(images/odnokl.svg);
   background-size: 100%;
-  margin-left: 20px;
+  margin-left: 1.04vw;
 }

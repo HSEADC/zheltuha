@@ -3,33 +3,44 @@
     position: relative;
     width: 100%;
     background-color: #fcf549;
-    padding: 70px 35px 0 35px;
+    padding: 3.65vw 1.82vw 0 1.82vw;
+    overflow: hidden;
   }
 
   .filter {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: white;
-    padding: 25px 60px;
-    margin: 35px 0;
+    padding: 1.3vw 3.13vw;
+    margin: 1.82vw 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 0.78vw;
+  }
+
+  .filter2 {
+    display: none;
+    position: relative;
+    outline: 0.15vw solid black;
+    background-color: #fcf549;
+    padding: 0.78vw 6.25vw;
+    text-align: center;
   }
 
   .tegi {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: #fcf549;
-    padding: 15px 120px;
+    padding: 0.78vw 6.25vw;
     text-align: center;
   }
 
   .data {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: white;
-    padding: 15px 20px;
+    padding: 0.78vw 1.04vw;
     text-align: center;
   }
   .hypewindow {
@@ -39,35 +50,35 @@
 
   .hype {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: white;
-    padding: 15px 20px;
+    padding: 0.78vw 1.04vw;
     text-align: center;
   }
 
   .chislohypa {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: black;
-    padding: 15px 20px;
+    padding: 0.78vw 1.04vw;
     text-align: center;
     color: white;
   }
 
   .primenit {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: black;
-    padding: 15px 20px;
+    padding: 0.78vw 1.04vw;
     text-align: center;
     color: white;
   }
 
   .ochistit {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: white;
-    padding: 15px 20px;
+    padding: 0.78vw 1.04vw;
     text-align: center;
   }
 
@@ -76,42 +87,45 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    gap: 15px;
+    gap: 0.78vw;
   }
 
   .card {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: white;
-    padding: 25px 20px 25px 20px;
+    padding: 1.3vw 1.04vw 1.3vw 1.04vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0.52vw;
     width: calc(100% / 3);
     text-align: center;
+  }
+  .tagfamily {
     justify-content: center;
   }
-
   .content2 {
     position: relative;
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 15px 0px 50px 0px;
-    gap: 15px;
+    padding: 0.78vw 0px 2.6vw 0px;
+    gap: 0.78vw;
   }
-
+  .invisible {
+    display: none;
+  }
   .card2 {
     position: relative;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background-color: white;
-    padding: 25px 20px 25px 20px;
+    padding: 1.3vw 1.04vw 1.3vw 1.04vw;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 0.78vw;
     width: 50%;
-    height: 350px;
+    height: 24.23vw;
     text-align: left;
   }
 
@@ -119,68 +133,75 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.52vw;
     justify-content: left;
-    width: 65%;
+    width: 55%;
   }
 
   .vanga {
     position: relative;
     width: 100%;
-    height: 235px;
-    outline: 2px solid black;
+    height: 15.94vw;
+    outline: 0.15vw solid black;
     background: url(images/vanga.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 
   .bashnya {
     position: relative;
     width: 100%;
-    height: 235px;
-    outline: 2px solid black;
+    height: 15.94vw;
+    outline: 0.15vw solid black;
     background: url(images/bashnya.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 
   .buter {
     position: relative;
     width: 100%;
-    height: 235px;
-    outline: 2px solid black;
+    height: 15.94vw;
+    outline: 0.15vw solid black;
     background: url(images/buter.png);
     background-size: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
   }
 
   .chicatilo {
     position: relative;
-    width: 35%;
+    width: 50%;
     height: 100%;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background: url(images/chicatilo.png);
-    background-size: cover;
+    background-size: 100%;
   }
 
   .pi {
     position: relative;
-    width: 35%;
+    width: 50%;
     height: 100%;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     background: url(images/pi.png);
-    background-size: cover;
+    background-size: 100%;
   }
-
+  .pi2 {
+    position: relative;
+    width: 100%;
+    height: 16.24vw;
+    outline: 0.15vw solid black;
+    background: url(images/pi2.png);
+    background-size: 100%;
+  }
   .number {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 10px 12px;
+    padding: 0.52vw 0.63vw;
     display: inline-block;
-    font-size: 35px;
+    font-size: 1.82vw;
     background-color: white;
-    outline: 2px solid black;
+    outline: 0.15vw solid black;
     font-family: 'Verdanab';
   }
 }
