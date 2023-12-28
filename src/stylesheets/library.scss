@@ -102,7 +102,9 @@
     width: calc(100% / 3);
     text-align: center;
   }
-
+  .tagfamily {
+    justify-content: center;
+  }
   .content2 {
     position: relative;
     display: flex;
