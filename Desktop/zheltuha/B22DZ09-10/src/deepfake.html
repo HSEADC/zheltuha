@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>СТАТЬИ РАССЛЕДОВАНИЯ</title>
+  </head>
+  <body class="deepfake">
+    <div class="menu">
+      <a href="library.html"><div class="arhiv statearhiv"></div></a>
+      <a href="investigations.html"><div class="rasledovaniya"></div></a>
+      <a href="index.html"><div class="logo"></div></a>
+      <a href="veruneveru.html"><div class="veruneveru"></div></a>
+      <a href="tests.html"><div class="tests"></div></a>
+      <a href="about.html"><div class="onas"></div></a>
+    </div>
+    <section class="screen1">
+      <a href="investigations.html">
+        <div class="back">
+          <h5 class="back-text">в раздел</h5>
+          <div class="arrow"></div>
+        </div>
+      </a>
+      <div class="info">
+        <div class="gradient1"></div>
+        <div class="zagolovok">
+          <h3 class="papa-zagolovok">
+            ПАПА РИМСКИЙ В ЛЮКСОВОМ <br />ПУЗОВИКЕ В ВАТИКАНЕ?
+          </h3>
+        </div>
+        <div class="type">
+          <h3 class="type-text">расследование</h3>
+        </div>
+        <div class="date">
+          <h3 class="date-text">НОВОСТЬ ЗА 25.10.22</h3>
+        </div>
+      </div>
+      <p class="hey">
+        Эй, друзья! Мы здесь, чтобы поговорить <br />о недавней новости, которая
+        шумно разнеслась<br />всети. Вынаверное видели это фото, которое,<br />
+        казалось бы, изображает Папу Римского <br />в пуховике, верно? Но
+        давайте вместе рассмотрим,<br />
+        почему эта новость>— чистой воды фейк.
+      </p>
+      <div class="fake"></div>
+    </section>
+    <section class="screen2">
+      <div class="gradient2"></div>
+      <h6 class="vzglyad">взгляд на изображение</h6>
+      <p class="vzglyad-text">
+        Мы видим человека в пуховике с капюшоном, <br />
+        но остановитесь на мгновение. Папская <br />
+        тиара — символ Папы Римского, но где она?<br />
+        Мы не видим ее, потому что она не может <br />
+        скрыться под капюшоном пуховика. Это уже <br />первый признак того, что
+        что-то не так.
+      </p>
+      <div class="look">
+        <h3 class="look-text">ПОСМОТРИТЕ ВНИМАТЕЛЬНО НА ЭТО ФОТО</h3>
+      </div>
+      <div class="sam-papa"></div>
+    </section>
+    <section class="screen3">
+      <h6 class="noway">ОТСУТСТВИЕ НАДЕЖНЫХ ИСТОЧНИКОВ</h6>
+      <div class="gradient3"></div>
+      <div class="friends"></div>
+      <p class="noway-text">
+        Единственным источником этой <br />
+        фотографии является маленькая группа <br />в соцсетях. Никакой
+        надежной<br />
+        информации от независимых новостных<br />
+        агентств или официальных источников <br />
+        у нас нет. Это большой звоночек.
+      </p>
+      <div class="gradient4"></div>
+      <h6 class="privacy">НАРУШЕНИЕ БЕЗОПАСНОСТИ</h6>
+      <div class="proger"></div>
+      <div class="clear"></div>
+      <p class="noway-text2">
+        Папа Римский— одна из самых<br />
+        защищенных личностей в мире. Если бы <br />он действительно решил
+        прогуляться <br />в пуховике, у нас были бы надежные меры <br />
+        безопасности вокруг него. Это не было <br />бы просто так!
+      </p>
+      <h6 class="official">ОТСУТСТВИЕ ОФИЦИАЛЬНЫХ <br />ПОДТВЕРЖДЕНИЙ</h6>
+      <div class="gradient5"></div>
+      <div class="gradient6"></div>
+      <div class="kamon"></div>
+      <p class="noway-text3">
+        Если бы такое событие действительно <br />
+        произошло, официальная Церковь была<br />
+        бы первой, кто дал бы комментарий. Но,<br />
+        увы, мы не слышали ничего подобного.
+      </p>
+    </section>
+    <section class="screen4">
+      <div class="citata"></div>
+      <div class="tostart" id="scrollTopButton"></div>
+    </section>
+    <script>
+      document
+        .getElementById('scrollTopButton')
+        .addEventListener('click', function () {
+          scrollToTop()
+        })
+
+      function scrollToTop() {
+        const scrollDuration = 500
+        const scrollStep = -window.scrollY / (scrollDuration / 15)
+
+        const scrollInterval = setInterval(function () {
+          if (window.scrollY !== 0) {
+            window.scrollBy(0, scrollStep)
+          } else {
+            clearInterval(scrollInterval)
+          }
+        }, 15)
+      }
+    </script>
+    <section class="footer">
+      <div class="righttext">
+        <div class="logohse"></div>
+        <div class="imena">
+          <p>Тимофей Артеменко</p>
+          <p>Вероника Логинова</p>
+          <p>Татьяна Турицына</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <div class="vk"></div>
+        <div class="tg"></div>
+        <div class="odnokl"></div>
+      </div>
+    </section>
+  </body>
+</html>

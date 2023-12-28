@@ -102,15 +102,9 @@ module.exports = {
 
     //Section
 
-    //Article
     new HtmlWebpackPlugin({
-      template: './src/library/papa.html',
-      filename: './library/papa.html'
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/investigations/deepfake.html',
-      filename: './investigations/deepfake.html'
+      template: './src/deepfake.html',
+      filename: './deepfake.html'
     }),
 
     new HtmlWebpackPlugin({
@@ -141,9 +135,10 @@ module.exports = {
       filename: './zaglushka.html'
     }),
 
+    //Article
     new HtmlWebpackPlugin({
-      template: './src/vanga.html',
-      filename: './vanga.html'
+      template: './src/library/papa.html',
+      filename: './library/papa.html'
     }),
 
     //Partials
