@@ -117,7 +117,10 @@ module.exports = {
       template: './src/veruneveru.html',
       filename: './veruneveru.html'
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/vanga.html',
+      filename: './vanga.html'
+    }),
     new HtmlWebpackPlugin({
       template: './src/library.html',
       filename: './library.html'
