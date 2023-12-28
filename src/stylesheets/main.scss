@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
 p {
   font-family: 'Verdanar';
   font-size: 20px;
-  line-height: 96%;
+  line-height: 120%;
 }
 
 h3 {
@@ -160,11 +160,15 @@ h5 {
   margin-bottom: 10px;
 }
 
+.navig > p {
+  font-family: 'Verdanab';
+  font-size: 17px;
+}
 .grid-p > p {
   font-family: 'zheltuhasansblackR';
   font-weight: 400;
   font-size: 200px;
-  letter-spacing: -7px;
+  letter-spacing: -16px;
   hyphens: auto;
 }
 .grid-h2 > h2 {
