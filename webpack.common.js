@@ -109,8 +109,8 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/investigations/deepfake.html',
-      filename: './investigations/deepfake.html'
+      template: './src/deepfake.html',
+      filename: './deepfake.html'
     }),
 
     new HtmlWebpackPlugin({
