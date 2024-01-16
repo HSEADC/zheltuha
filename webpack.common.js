@@ -144,6 +144,11 @@ module.exports = {
       filename: './zaglushka.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
+    }),
+
     //Partials
     new HtmlWebpackPartialsPlugin([
       {
