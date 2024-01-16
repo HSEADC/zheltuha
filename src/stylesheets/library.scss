@@ -102,7 +102,7 @@
     width: calc(100% / 3);
     text-align: center;
   }
-  .tagfamily {
+  .tagfamily.two {
     justify-content: center;
   }
   .content2 {
@@ -125,8 +125,9 @@
     flex-direction: row;
     gap: 0.78vw;
     width: 50%;
-    height: 24.23vw;
+    height: 30.23vw;
     text-align: left;
+    justify-content: left;
   }
 
   .text {

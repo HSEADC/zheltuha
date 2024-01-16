@@ -1,0 +1,1055 @@
+.index2 {
+  background-color: #fbf448;
+
+  @media screen and (max-width: 763px) {
+    .index2 {
+      scale: 1.3;
+    }
+  }
+
+  .screen1 {
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fcf549;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 1439px) {
+    .screen1 {
+      overflow-x: hidden;
+      height: 100%;
+      top: 4vw;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .screen1 {
+      height: 50%;
+      top: 4vw;
+    }
+  }
+
+  @media screen and (max-width: 763px) {
+    .screen1 {
+      scale: 1.3;
+      height: 100%;
+      top: 45vw;
+    }
+  }
+
+  .gradient_tizer {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 86vw;
+    height: 37.6vw;
+    margin: 11.5vw 0 0 7vw;
+    filter: blur(3.6vw);
+  }
+
+  @media screen and (max-width: 763px) {
+    .gradient_tizer {
+      height: 67.6vw;
+      margin: 20vw 0 0 7vw;
+      filter: blur(5.6vw);
+      opacity: 90%;
+    }
+  }
+
+  .zheltuha_logo {
+    position: absolute;
+    margin: 20vw 0 0 14vw;
+    width: 74vw;
+    height: 15.6vw;
+    background: url(images/h2.png);
+    background-size: 100%;
+  }
+  @media screen and (max-width: 763px) {
+    .zheltuha_logo {
+      margin: 46vw 0 0 13vw;
+    }
+  }
+
+  .zagolovok {
+    position: absolute;
+    font-size: 8vw;
+    letter-spacing: -0.59vw;
+    rotate: -3.89deg;
+    margin: 33.9vw 0 0 34vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .zagolovok {
+      position: absolute;
+      font-size: 13vw;
+      letter-spacing: -1vw;
+      rotate: -3.89deg;
+      margin: 60.9vw 0 0 23vw;
+    }
+  }
+
+  .zagolovok_text {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 1.42vw;
+    rotate: -3.89deg;
+    margin: 38.8vw 0 0 56vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .zagolovok_text {
+      position: absolute;
+      text-transform: uppercase;
+      font-size: 2.5vw;
+      rotate: -3.89deg;
+      margin: 71.8vw 0 0 32vw;
+    }
+  }
+
+  .screen2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fbf448;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 1023px) {
+    .screen2 {
+      height: 50%;
+      top: 4vw;
+    }
+  }
+
+  @media screen and (max-width: 763px) {
+    .screen2 {
+      scale: 1.6;
+      height: 105%;
+      top: 48vw;
+    }
+  }
+
+  .computer {
+    z-index: 1;
+    position: absolute;
+    background: url(images/computer.png);
+    background-size: 100%;
+    top: 2.92vw;
+    left: 57.76vw;
+    width: 45.16vw;
+    height: 49.38vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .computer {
+      scale: 1.3;
+      top: 54.92vw;
+      left: 36.7vw;
+    }
+  }
+
+  .gradient2 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 90%;
+    width: 66.2vw;
+    height: 49.2vw;
+    top: 4.55vw;
+    left: 46.96vw;
+    filter: blur(3.82vw);
+  }
+
+  @media screen and (max-width: 763px) {
+    .gradient2 {
+      width: 75.2vw;
+      height: 75.2vw;
+      top: 40.55vw;
+      left: 24.96vw;
+      filter: blur(4.82vw);
+    }
+  }
+
+  .ogon {
+    z-index: 1;
+    position: absolute;
+    background: url(images/ogon.png);
+    background-size: 100%;
+    top: 9.32vw;
+    left: 44.92vw;
+    width: 26.94vw;
+    height: 18vw;
+    transform: rotate(336deg);
+  }
+
+  @media screen and (max-width: 763px) {
+    .ogon {
+      scale: 1.2;
+      left: 52.92vw;
+    }
+  }
+
+  .fakenews {
+    position: absolute;
+    margin: 9.8vw 0 0 4vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .fakenews {
+      margin: 7.7vw 0 0 21vw;
+    }
+  }
+
+  .text_fakenews {
+    position: absolute;
+    margin: 33.8vw 0 0 5vw;
+    font-size: 1.7vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .text_fakenews {
+      margin: 33.8vw 0 0 22vw;
+    }
+  }
+
+  .screen3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fbf448;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .screen3 {
+      height: 50%;
+      top: 4vw;
+    }
+  }
+  @media screen and (max-width: 763px) {
+    .screen3 {
+      scale: 1.6;
+      height: 100%;
+      top: 48vw;
+    }
+  }
+
+  .card1 {
+    position: absolute;
+    z-index: 2;
+    background: url(images/chikatilo-card.svg);
+    background-size: 100%;
+    top: 8.92vw;
+    left: 14.7vw;
+    width: 40.16vw;
+    height: 21vw;
+    box-shadow: 0.63vw 0.63vw 0.1vw 0.05vw rgba(0, 0, 0);
+  }
+
+  @media screen and (max-width: 763px) {
+    .card1 {
+      scale: 1.2;
+      top: 59.92vw;
+      left: 34.7vw;
+      width: 40.16vw;
+      height: 21vw;
+    }
+  }
+
+  .card2 {
+    position: absolute;
+    z-index: 1;
+    background: url(images/pi-card.svg);
+    background-size: 100%;
+    top: 19.92vw;
+    left: 3.6vw;
+    width: 40.16vw;
+    height: 21.3vw;
+    box-shadow: 0.63vw 0.63vw 0.1vw 0.05vw rgba(0, 0, 0);
+  }
+
+  @media screen and (max-width: 763px) {
+    .card2 {
+      scale: 1.2;
+      top: 77.92vw;
+      left: 27.6vw;
+      width: 40.16vw;
+      height: 21.3vw;
+    }
+  }
+
+  .gradient3 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 90%;
+    width: 77.2vw;
+    height: 37.2vw;
+    top: 6.55vw;
+    left: 39.96vw;
+    filter: blur(3.82vw);
+  }
+
+  @media screen and (max-width: 763px) {
+    .gradient3 {
+      scale: 1.1;
+      left: 15.96vw;
+    }
+  }
+
+  .arhiv-news {
+    position: absolute;
+    margin: 9.8vw 0 0 60vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .arhiv-news {
+      scale: 1.2;
+      margin: 14.8vw 0 0 26vw;
+    }
+  }
+
+  .arhiv-text {
+    position: absolute;
+    margin: 19vw 0 0 60vw;
+    font-size: 1.6vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .arhiv-text {
+      margin: 26vw 0 0 41vw;
+    }
+  }
+
+  .knopka {
+    position: absolute;
+    width: 22.4vw;
+    margin: 38.5vw 0 0 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9vw;
+    background-color: #000;
+    border: 2px solid #fbf448;
+    color: #fbf448;
+    box-shadow: 0.63vw 0.63vw 0.1vw 0.05vw rgba(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 763px) {
+    .knopka {
+      scale: 1.1;
+      border: 0.1vw solid #fbf448;
+      margin: 45.5vw 0 0 42vw;
+    }
+  }
+
+  .strelka {
+    background: url(images/strelka.svg);
+    background-size: 100%;
+    width: 1.4vw;
+    height: 1.35vw;
+  }
+
+  .go-razdel {
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .screen4 {
+    position: relative;
+    width: 100%;
+    height: 140%;
+    background-color: #fbf448;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 1023px) {
+    .screen4 {
+      height: 70%;
+      top: 4vw;
+    }
+  }
+
+  @media screen and (max-width: 763px) {
+    .screen4 {
+      scale: 1.6;
+      height: 95%;
+      top: 48vw;
+    }
+  }
+
+  .investigations-zagolovok {
+    position: absolute;
+    z-index: 1;
+    margin: 2vw 0 0 5vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .investigations-zagolovok {
+      scale: 1.2;
+      margin: 2vw 0 0 25vw;
+    }
+  }
+
+  .investigations-text {
+    position: absolute;
+    z-index: 1;
+    width: 29.4vw;
+    margin: 5.5vw 0 0 43vw;
+    padding: 1.6vw 0.9vw 1.6vw 0.9vw;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+  }
+
+  @media screen and (max-width: 763px) {
+    .investigations-text {
+      scale: 1.2;
+      border: 0.1vw solid #000000;
+      margin: 13.5vw 0 0 47vw;
+    }
+  }
+
+  .text-ras {
+    font-size: 1.6vw;
+  }
+
+  .knopka2 {
+    position: absolute;
+    z-index: 1;
+    width: 22.4vw;
+    margin: 15.7vw 0 0 61vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9vw;
+    background-color: #000;
+    border: 2px solid #fbf448;
+    color: #fbf448;
+    box-shadow: 0.63vw 0.63vw 0.1vw 0.05vw rgba(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 763px) {
+    .knopka2 {
+      scale: 1.2;
+      margin: 25.7vw 0 0 33vw;
+      border: 0.1vw solid #fbf448;
+    }
+  }
+
+  .gradient4 {
+    position: absolute;
+    z-index: 0;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 90%;
+    width: 92.2vw;
+    height: 53.2vw;
+    top: 16.55vw;
+    left: 7.3vw;
+    filter: blur(4vw);
+  }
+
+  @media screen and (max-width: 763px) {
+    .gradient4 {
+      width: 110.2vw;
+      height: 73.2vw;
+      top: 34.55vw;
+      left: -3.7vw;
+      filter: blur(5vw);
+    }
+  }
+
+  .card3 {
+    position: absolute;
+    z-index: 2;
+    background: url(images/pugacheva-card.svg);
+    background-size: 100%;
+    top: 21.92vw;
+    left: 38.6vw;
+    width: 26vw;
+    height: 50.3vw;
+    box-shadow: 0.63vw 0.63vw 0.1vw 0.05vw rgba(0, 0, 0);
+  }
+  @media screen and (max-width: 763px) {
+    .card3 {
+      scale: 1.3;
+      top: 48.92vw;
+    }
+  }
+
+  .card4 {
+    position: absolute;
+    z-index: 1;
+    background: url(images/preziki-card.svg);
+    background-size: 100%;
+    top: 26.92vw;
+    left: 12vw;
+    width: 25.8vw;
+    height: 45.5vw;
+    rotate: -10deg;
+    box-shadow: 0.63vw 0.63vw 0.1vw 0.05vw rgba(0, 0, 0);
+  }
+  @media screen and (max-width: 763px) {
+    .card4 {
+      scale: 1.2;
+      top: 61.92vw;
+      left: 20vw;
+      width: 25.8vw;
+      height: 45.5vw;
+      z-index: 2;
+    }
+  }
+
+  .card5 {
+    position: absolute;
+    z-index: 1;
+    background: url(images/galkin-card.svg);
+    background-size: 100%;
+    top: 28.92vw;
+    left: 65.6vw;
+    width: 25.7vw;
+    height: 41vw;
+    rotate: 10deg;
+    box-shadow: 0.63vw 0.63vw 0.1vw 0.05vw rgba(0, 0, 0);
+  }
+
+  @media screen and (max-width: 763px) {
+    .card5 {
+      scale: 1.2;
+      top: 65.92vw;
+      left: 59vw;
+      z-index: 2;
+    }
+  }
+
+  .screen5 {
+    position: relative;
+    margin-top: 5vw;
+    width: 100%;
+    height: 100%;
+    background-color: #fbf448;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 1439px) {
+    .screen5 {
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .screen5 {
+      scale: 1.2;
+      height: 60%;
+      top: 10vw;
+    }
+  }
+
+  @media screen and (max-width: 763px) {
+    .screen5 {
+      scale: 1.5;
+      height: 100%;
+      top: 45vw;
+    }
+  }
+
+  .gradient5 {
+    position: absolute;
+    z-index: 0;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 90%;
+    width: 92.2vw;
+    height: 34.2vw;
+    top: 4vw;
+    left: 4.3vw;
+    filter: blur(3vw);
+  }
+  @media screen and (max-width: 763px) {
+    .gradient5 {
+      width: 92.2vw;
+      height: 47.2vw;
+      top: 20vw;
+    }
+  }
+
+  .gradient6 {
+    position: absolute;
+    z-index: 0;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 90%;
+    width: 67vw;
+    height: 26vw;
+    top: 27vw;
+    left: 17.3vw;
+    filter: blur(3vw);
+  }
+
+  @media screen and (max-width: 763px) {
+    .gradient6 {
+      width: 56vw;
+      height: 44vw;
+      top: 51vw;
+      left: 23.3vw;
+    }
+  }
+
+  .last {
+    position: absolute;
+    z-index: 1;
+    margin: 13vw 0 0 20vw;
+  }
+  @media screen and (max-width: 763px) {
+    .last {
+      margin: 14vw 0 0 35vw;
+    }
+  }
+
+  .papa-card {
+    position: absolute;
+    z-index: 1;
+    background: url(images/papa-card.svg);
+    background-size: 100%;
+    margin: 12vw 0 0 53vw;
+    width: 25vw;
+    height: 9.3vw;
+  }
+  @media screen and (max-width: 763px) {
+    .papa-card {
+      margin: 22vw 0 0 39vw;
+    }
+  }
+
+  @media screen and (max-width: 763px) {
+    .last-news {
+      position: relative;
+      scale: 1.4;
+      top: -5vw;
+    }
+  }
+
+  .last-news-card {
+    position: absolute;
+    z-index: 1;
+    width: 29.4vw;
+    margin: 22.5vw 0 0 22vw;
+    padding: 1.6vw 0.9vw 1vw 0.9vw;
+    background-color: #fbf448;
+    border: 2px solid #000000;
+  }
+
+  @media screen and (max-width: 763px) {
+    .last-news-card {
+      scale: 1.2;
+      margin: 42.5vw 0 0 36vw;
+      border: 0.1vw solid #000000;
+    }
+  }
+
+  .papa-text {
+    text-align: center;
+  }
+
+  .news-text {
+    position: absolute;
+    z-index: 1;
+    margin: 24vw 0 0 55vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .news-text {
+      margin: 33vw 0 0 41vw;
+    }
+  }
+
+  .new-news {
+    font-size: 1.6vw;
+  }
+
+  .new-news-text {
+    position: relative;
+    z-index: 1;
+    width: 37.4vw;
+    top: 36vw;
+    padding: 1.6vw 0.9vw 1.6vw 0.9vw;
+    background-color: #fbf448;
+    border: 2px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 763px) {
+    .new-news-text {
+      scale: 1.3;
+      top: 88vw;
+      background-color: #ffffff;
+      border: 0.1vw solid #000000;
+    }
+  }
+
+  .new-news {
+    font-size: 1.6vw;
+  }
+
+  .knopka3 {
+    position: absolute;
+    z-index: 1;
+    width: 22.4vw;
+    margin: 35.7vw 0 0 52vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9vw;
+    background-color: #000;
+    border: 2px solid #fbf448;
+    color: #fbf448;
+    box-shadow: 0.63vw 0.63vw 0.1vw 0.05vw rgba(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 763px) {
+    .knopka3 {
+      scale: 1.3;
+      margin: 92vw 0 0 39vw;
+      border: 0.1vw solid #fbf448;
+    }
+  }
+
+  .screen6 {
+    position: relative;
+    margin-top: 5vw;
+    width: 100%;
+    height: 200%;
+    background-color: #fbf448;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 1439px) {
+    .screen6 {
+      height: 165%;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .screen6 {
+      height: 80%;
+    }
+  }
+
+  @media screen and (max-width: 763px) {
+    .screen6 {
+      scale: 1.5;
+      height: 140%;
+      top: 68vw;
+    }
+  }
+
+  .gradient4-4 {
+    position: absolute;
+    background-color: white;
+    opacity: 90%;
+    border-radius: 50%;
+    width: 60.54vw;
+    height: 52vw;
+    left: -10vw;
+    top: 6.7vw;
+    filter: blur(5vw);
+  }
+  @media screen and (max-width: 763px) {
+    .gradient4-4 {
+      width: 83.53999999999999vw;
+      height: 52vw;
+      left: 0vw;
+    }
+  }
+
+  .gradient5-5 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 40.73vw;
+    height: 17.9vw;
+    top: 14.44vw;
+    left: 55vw;
+    filter: blur(2.8vw);
+  }
+  .gradient6-6 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 40.73vw;
+    height: 14.9vw;
+    top: 36.2vw;
+    left: 55.72vw;
+    filter: blur(2.8vw);
+  }
+
+  .yavshoke {
+    position: absolute;
+    background: url(images/yavshoke.png);
+    background-size: 100%;
+    top: 31.7vw;
+    left: 81.33vw;
+    width: 17.32vw;
+    height: 7.9vw;
+    transform: rotate(3deg);
+  }
+
+  @media screen and (max-width: 763px) {
+    .yavshoke {
+      top: 48.7vw;
+      left: 63.33vw;
+    }
+  }
+
+  .tel1 {
+    position: absolute;
+    background: url(images/tel1.png);
+    background-size: 100%;
+    top: -1.7400000000000002vw;
+    width: 39.3vw;
+    height: 58.92vw;
+    transform: rotate(32deg);
+  }
+
+  @media screen and (max-width: 763px) {
+    .tel1 {
+      scale: 1.4;
+      top: 54vw;
+      left: 0vw;
+    }
+  }
+
+  .tel2 {
+    position: absolute;
+    background: url(images/tel2.png);
+    background-size: 100%;
+    top: 23.27vw;
+    left: 20.29vw;
+    width: 32.53vw;
+    height: 40.58vw;
+    transform: rotate(355deg);
+  }
+
+  @media screen and (max-width: 763px) {
+    .tel2 {
+      scale: 1.3;
+      top: 72.27vw;
+      left: 44.29vw;
+    }
+  }
+
+  .dlya {
+    position: absolute;
+    margin: 20vw 0 0 60vw;
+    font-size: 1.5vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .dlya {
+      margin: 23vw 0 0 24vw;
+    }
+  }
+
+  .vas {
+    position: absolute;
+    margin: 40vw 0 0 60vw;
+    font-size: 1.5vw;
+  }
+  @media screen and (max-width: 763px) {
+    .vas {
+      margin: 35vw 0 0 45vw;
+    }
+  }
+
+  .midlyavseh {
+    position: absolute;
+    z-index: 1;
+    margin: 6vw 0 0 64.2vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .midlyavseh {
+      scale: 1.3;
+      margin: 3vw 0 0 27.200000000000003vw;
+    }
+  }
+
+  .vft {
+    position: absolute;
+    z-index: 2;
+    background: url(images/vtf.png);
+    background-size: 100%;
+    top: 9.32vw;
+    left: 39.44vw;
+    width: 19.3vw;
+    height: 8.7vw;
+    transform: rotate(10deg);
+  }
+
+  @media screen and (max-width: 763px) {
+    .vtf {
+      top: 13.32vw;
+      left: 59.44vw;
+    }
+  }
+
+  .lenta1 {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    width: 100vw;
+    padding: 1vw 0 1vw 0;
+    height: 10.8vw;
+    top: 605vw;
+    outline: 2px solid black;
+    transform: rotate(355deg);
+    width: 105vw;
+    height: 5.800000000000001vw;
+    top: 60vw;
+    left: -1vw;
+  }
+  @media screen and (max-width: 763px) {
+    .lenta1 {
+      top: 118vw;
+    }
+  }
+
+  .soon {
+    font-size: 5vw;
+    text-transform: uppercase;
+  }
+
+  .email {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 70vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    width: 29.95vw;
+    height: 15.36vw;
+    background-color: white;
+    outline: 0.16vw solid black;
+  }
+  @media screen and (max-width: 763px) {
+    .email {
+      scale: 1.4;
+      top: 132vw;
+    }
+  }
+
+  .text {
+    position: relative;
+    top: 1.88vw;
+    margin: 0 auto;
+    width: 25.52vw;
+    height: 7.24vw;
+    background: url(images/pervim.png);
+    background-size: 100%;
+  }
+  .pole {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 2.5vw;
+    margin: 0 auto;
+  }
+  form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  input {
+    position: relative;
+    width: 21.61vw;
+    height: 4.48vw;
+    background-color: white;
+    outline: 0.1vw solid black;
+    font-family: 'Verdanar';
+    font-size: 1.35vw;
+    padding: 0 0 0.26vw 1.04vw;
+  }
+  ::placeholder {
+    font-family: 'Verdanar';
+    font-size: 1.35vw;
+    color: black;
+  }
+
+  button {
+    position: relative;
+    width: 5.31vw;
+    height: 4.48vw;
+    border: 0.05vw solid black;
+    outline: 0.1vw solid black;
+    cursor: pointer;
+    background: url(images/arrow.png);
+    background-size: 100%;
+    color: black;
+  }
+  button:hover {
+    background-color: #fbf448;
+    background: url(images/arrow2.png);
+    background-size: 100%;
+    border: 0.05vw solid black;
+    outline: 0.1vw solid black;
+    color: black;
+  }
+
+  .ogon1 {
+    z-index: 1;
+    position: absolute;
+    background: url(images/ogon.png);
+    background-size: 100%;
+    top: 58vw;
+    left: 62.92vw;
+    width: 26.94vw;
+    height: 18vw;
+    transform: rotate(343deg);
+  }
+
+  @media screen and (max-width: 763px) {
+    .ogon1 {
+      top: 115vw;
+      left: 59.92vw;
+    }
+  }
+
+  .real {
+    z-index: 1;
+    position: absolute;
+    background: url(images/real.svg);
+    background-size: 100%;
+    top: 151vw;
+    left: 19.92vw;
+    width: 22.94vw;
+    height: 10.6vw;
+  }
+
+  .lenta2 {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    width: 100vw;
+    padding: 1vw 0 1vw 0;
+    height: 10.8vw;
+    top: 605vw;
+    outline: 2px solid black;
+    transform: rotate(6deg);
+    width: 105vw;
+    height: 5.8vw;
+    top: 91vw;
+    left: -1vw;
+  }
+
+  @media screen and (max-width: 763px) {
+    .lenta2 {
+      top: 156vw;
+    }
+  }
+}
