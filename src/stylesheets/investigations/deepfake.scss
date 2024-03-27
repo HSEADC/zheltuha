@@ -1,0 +1,267 @@
+.deepfake {
+  h1:nth-child(4) {
+    text-align: right;
+  }
+  // АТОМЫ
+
+  .A_statia_img_big {
+    margin: 0 -8vw;
+    height: 90vw;
+    border: 0.1vw solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .A_statia_img_little {
+    width: 110vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .A_statia_date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5vw 2vw;
+    background-color: #d4d3c0;
+    border: 0.1vw solid black;
+    margin-left: 60vw;
+
+    h6 {
+      background-color: none;
+      padding: 0vw;
+      border: 0vw solid black;
+    }
+  }
+
+  // МОЛЕКУЛЫ
+
+  .M_statia_back_group {
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 40vw;
+  }
+
+  // ОРГАНИЗМЫ
+
+  .O_statia_preview {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 -8vw;
+  }
+
+  .O_statia_img_with_text {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    margin: 2vw 0vw 5vw 0;
+  }
+
+  // СУПЕР ОРГАНИЗМЫ
+
+  .S_screen {
+    text-align: left;
+    align-items: normal;
+    background-color: #ffffff;
+  }
+
+  .S_screen:nth-child(3) {
+    text-align: left;
+    align-items: normal;
+    background-color: #fcf549;
+    padding: 4vw 4vw 0vw 4vw;
+    gap: 2vw;
+  }
+
+  .S_screen:nth-child(5) {
+    position: relative;
+    text-align: left;
+    align-items: normal;
+    background-color: #fcf549;
+    padding: 4vw 4vw 0vw 4vw;
+    gap: 4vw;
+
+    p {
+      position: absolute;
+      top: 14vw;
+      left: 56vw;
+      max-width: 31vw;
+    }
+  }
+
+  .S_screen:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  // ДОП.КЛАССЫ
+
+  .papa {
+    background-image: url(images/sam-papa.svg);
+  }
+  .proger {
+    background-image: url(images/proger.svg);
+  }
+  .tetya {
+    background-image: url(images/tetya.png);
+  }
+
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    // АТОМЫ
+
+    .A_statia_img_big {
+      border: 0.2vw solid black;
+    }
+
+    .A_statia_img_little {
+      width: 85vw;
+      border: 0.2vw solid black;
+    }
+
+    .A_statia_date {
+      padding: 0.5vw 2vw;
+      border: 0.2vw solid black;
+      margin-left: 60vw;
+    }
+
+    // МОЛЕКУЛЫ
+
+    .M_statia_back_group {
+      margin-right: 40vw;
+    }
+
+    // ОРГАНИЗМЫ
+
+    .O_statia_preview {
+      margin-top: 2vw;
+    }
+
+    .O_statia_img_with_text {
+      gap: 4vw;
+      margin: 2vw 0vw 5vw 0;
+    }
+
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      height: 50%;
+    }
+
+    .S_screen:nth-child(3) {
+      padding: 6vw 6vw 0vw 6vw;
+      gap: 2vw;
+      height: 50%;
+    }
+
+    .S_screen:nth-child(4) {
+      padding: 6vw 6vw 6vw 6vw;
+    }
+
+    .S_screen:nth-child(5) {
+      padding: 6vw 6vw 0vw 6vw;
+      gap: 4vw;
+      height: 50%;
+
+      p {
+        top: 15vw;
+        left: 58vw;
+        max-width: 35vw;
+      }
+    }
+
+    .S_screen:nth-child(6) {
+      gap: 2vw;
+      height: 50%;
+    }
+  }
+
+  @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
+    h1:nth-child(4) {
+      text-align: left;
+      margin-top: 6vw;
+    }
+    // АТОМЫ
+
+    .A_statia_img_big {
+      border: 0.5vw solid black;
+    }
+
+    .A_statia_img_little {
+      height: 55vw;
+      width: 100%;
+      border: 0.5vw solid black;
+    }
+
+    .A_statia_date {
+      padding: 2.5vw 4vw;
+      border: 0.5vw solid black;
+      margin-left: 10vw;
+    }
+
+    // МОЛЕКУЛЫ
+
+    .M_statia_back_group {
+      margin-right: 40vw;
+    }
+
+    // ОРГАНИЗМЫ
+
+    .O_statia_preview {
+      margin-top: 2vw;
+    }
+
+    .O_statia_img_with_text {
+      flex-direction: column;
+      gap: 5vw;
+      margin: 2vw 0vw 5vw 0;
+    }
+
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      height: 100%;
+      gap: 4vw;
+    }
+
+    .S_screen:nth-child(3) {
+      height: 100%;
+      padding: 12vw 8vw 0vw 8vw;
+      gap: 7vw;
+    }
+
+    .S_screen:nth-child(4) {
+      padding: 12vw 8vw 8vw 8vw;
+      gap: 4vw;
+    }
+
+    .S_screen:nth-child(5) {
+      height: 100%;
+      padding: 12vw 8vw 0vw 8vw;
+      gap: 7vw;
+      p {
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+        max-width: none;
+      }
+    }
+
+    .S_screen:nth-child(6) {
+      height: 100%;
+      gap: 7vw;
+    }
+  }
+}

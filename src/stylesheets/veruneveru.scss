@@ -1,0 +1,166 @@
+.veruneveru {
+  h1:nth-child(4) {
+    margin-top: 4vw;
+  }
+  // АТОМЫ
+
+  .A_img_veruneveru_decor {
+    position: relative;
+    height: 18.06vw;
+    width: 23.4vw;
+    border: 0.1vw solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .A_img {
+    width: 26vw;
+  }
+  // МОЛЕКУЛЫ
+
+  .M_card_veruneveru_decor {
+    display: inline-block;
+    vertical-align: top;
+    height: 20vw;
+    margin: 3vw 2vw;
+  }
+
+  .M_veruneveru_choose_category {
+    display: flex;
+    flex-direction: row;
+    margin: 1vw 0;
+  }
+
+  // КОЛЛЕКЦИИ
+
+  .C_veruneveru {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 1.5vw;
+    width: 100%;
+    margin: 2vw 0 0 0;
+  }
+  .C_veruneveru::-webkit-scrollbar {
+    display: none;
+  }
+  // СУПЕР ОРГАНИЗМЫ
+
+  .S_screen {
+    background-color: white;
+  }
+
+  // ДОП.КЛАССЫ
+
+  .one_veruneveru {
+    background-image: url(images/one_veruneveru.svg);
+    transform: rotate(10deg);
+  }
+
+  .two_veruneveru {
+    background-image: url(images/two_veruneveru.svg);
+    transform: rotate(-10deg);
+  }
+  .three_veruneveru {
+    background-image: url(images/three_veruneveru.svg);
+  }
+  .four_veruneveru {
+    background-image: url(images/four_veruneveru.svg);
+    transform: rotate(10deg);
+  }
+  .five_veruneveru {
+    background-image: url(images/five_veruneveru.svg);
+    transform: rotate(-10deg);
+  }
+
+  .veruneveru_one {
+    background-image: url(images/A_img_veruneveru_one.svg);
+  }
+  .veruneveru_two {
+    background-image: url(images/A_img_veruneveru_two.svg);
+  }
+  .veruneveru_three {
+    background-image: url(images/A_img_veruneveru_three.svg);
+  }
+  .veruneveru_four {
+    background-image: url(images/A_img_veruneveru_four.svg);
+  }
+  .veruneveru_five {
+    background-image: url(images/A_img_veruneveru_five.svg);
+  }
+
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    h1:nth-child(4) {
+      margin-top: 4vw;
+    }
+    // АТОМЫ
+
+    .A_img_veruneveru_decor {
+      height: 18.06vw;
+      width: 23.4vw;
+      border: 0.2vw solid black;
+    }
+
+    // МОЛЕКУЛЫ
+
+    .M_card_veruneveru_decor {
+      margin-top: 3vw;
+    }
+
+    .M_veruneveru_choose_category {
+      margin: 1vw 0;
+    }
+
+    // КОЛЛЕКЦИИ
+
+    .C_veruneveru {
+      gap: 2vw;
+
+      margin: 2vw 0;
+    }
+
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      gap: 2vw;
+    }
+  }
+
+  @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
+    h1:nth-child(4) {
+      margin-top: 8vw;
+    }
+    // АТОМЫ
+
+    .A_img_veruneveru_decor {
+      height: 45vw;
+      width: 58vw;
+      border: 0.5vw solid black;
+    }
+
+    // МОЛЕКУЛЫ
+
+    .M_card_veruneveru_decor {
+      margin-top: 4vw;
+    }
+
+    .M_veruneveru_choose_category {
+      margin: 1vw 0;
+      justify-content: space-between;
+    }
+
+    // КОЛЛЕКЦИИ
+
+    .C_veruneveru {
+      gap: 7vw;
+      flex-direction: column;
+      margin: 2vw 0;
+    }
+
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      gap: 6vw;
+    }
+  }
+}

@@ -104,23 +104,25 @@ module.exports = {
 
     //Article
     new HtmlWebpackPlugin({
-      template: './src/library/papa.html',
-      filename: './library/papa.html'
+      template: './src/investigations/deepfake.html',
+      filename: './investigations/deepfake.html'
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/deepfake.html',
-      filename: './deepfake.html'
+      template: './src/library/vanga.html',
+      filename: './library/vanga.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_one.html',
+      filename: './tests/test_one.html'
     }),
 
     new HtmlWebpackPlugin({
       template: './src/veruneveru.html',
       filename: './veruneveru.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/vanga.html',
-      filename: './vanga.html'
-    }),
+
     new HtmlWebpackPlugin({
       template: './src/library.html',
       filename: './library.html'

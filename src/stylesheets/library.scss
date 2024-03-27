@@ -1,208 +1,165 @@
 .library {
-  .screen {
-    position: relative;
-    width: 100%;
-    background-color: #fcf549;
-    padding: 3.65vw 1.82vw 0 1.82vw;
-    overflow: hidden;
-  }
+  // КУАРКИ
 
-  .filter {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: white;
-    padding: 1.3vw 3.13vw;
-    margin: 1.82vw 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0.78vw;
-  }
-
-  .filter2 {
-    display: none;
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: #fcf549;
-    padding: 0.78vw 6.25vw;
-    text-align: center;
-  }
-
-  .tegi {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: #fcf549;
-    padding: 0.78vw 6.25vw;
-    text-align: center;
-  }
-
-  .data {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: white;
-    padding: 0.78vw 1.04vw;
-    text-align: center;
-  }
-  .hypewindow {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .hype {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: white;
-    padding: 0.78vw 1.04vw;
-    text-align: center;
-  }
-
-  .chislohypa {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: black;
-    padding: 0.78vw 1.04vw;
-    text-align: center;
-    color: white;
-  }
-
-  .primenit {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: black;
-    padding: 0.78vw 1.04vw;
-    text-align: center;
-    color: white;
-  }
-
-  .ochistit {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: white;
-    padding: 0.78vw 1.04vw;
-    text-align: center;
-  }
-
-  .content {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    gap: 0.78vw;
-  }
-
-  .card {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: white;
-    padding: 1.3vw 1.04vw 1.3vw 1.04vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.52vw;
-    width: calc(100% / 3);
-    text-align: center;
-  }
-  .tagfamily.two {
-    justify-content: center;
-  }
-  .content2 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 0.78vw 0px 2.6vw 0px;
-    gap: 0.78vw;
-  }
-  .invisible {
-    display: none;
-  }
-  .card2 {
-    position: relative;
-    outline: 0.15vw solid black;
-    background-color: white;
-    padding: 1.3vw 1.04vw 1.3vw 1.04vw;
-    display: flex;
-    flex-direction: row;
-    gap: 0.78vw;
-    width: 50%;
-    height: 30.23vw;
-    text-align: left;
-    justify-content: left;
-  }
-
-  .text {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 0.52vw;
-    justify-content: left;
-    width: 55%;
-  }
-
-  .vanga {
-    position: relative;
-    width: 100%;
-    height: 15.94vw;
-    outline: 0.15vw solid black;
-    background: url(images/vanga.png);
-    background-size: 100%;
-    margin-bottom: 0.52vw;
-  }
-
-  .bashnya {
-    position: relative;
-    width: 100%;
-    height: 15.94vw;
-    outline: 0.15vw solid black;
-    background: url(images/bashnya.png);
-    background-size: 100%;
-    margin-bottom: 0.52vw;
-  }
-
-  .buter {
-    position: relative;
-    width: 100%;
-    height: 15.94vw;
-    outline: 0.15vw solid black;
-    background: url(images/buter.png);
-    background-size: 100%;
-    margin-bottom: 0.52vw;
-  }
-
-  .chicatilo {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    outline: 0.15vw solid black;
-    background: url(images/chicatilo.png);
-    background-size: 100%;
-  }
-
-  .pi {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    outline: 0.15vw solid black;
-    background: url(images/pi.png);
-    background-size: 100%;
-  }
-  .pi2 {
-    position: relative;
-    width: 100%;
-    height: 16.24vw;
-    outline: 0.15vw solid black;
-    background: url(images/pi2.png);
-    background-size: 100%;
-  }
-  .number {
+  .Q_archive_hype {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 0.52vw 0.63vw;
+    padding: 0.52vw 0.83vw;
     display: inline-block;
-    font-size: 1.82vw;
     background-color: white;
-    outline: 0.15vw solid black;
-    font-family: 'Verdanab';
+    outline: 0.1vw solid black;
+  }
+
+  // АТОМЫ
+
+  .A_img {
+    height: 10vw;
+    margin-bottom: 0.52vw;
+  }
+
+  .A_gradient_yellow {
+    top: -18vw;
+    left: -3vw;
+    height: 52vw;
+    width: 106vw;
+  }
+  // МОЛЕКУЛЫ
+
+  .M_card {
+    gap: 0.7vw;
+  }
+
+  // КОЛЛЕКЦИЯ
+
+  .C_archive_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 1.5vw;
+    margin-top: 0.5vw;
+
+    a {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  // ДОП.КЛАССЫ
+
+  h1 {
+    z-index: 2;
+  }
+  .O_commons_teg {
+    z-index: 2;
+  }
+  .for_archive {
+    margin-top: 1vw;
+    flex-wrap: nowrap;
+  }
+
+  .vanga {
+    background-image: url(images/vanga.png);
+  }
+
+  .bashnya {
+    background-image: url(images/bashnya.png);
+  }
+
+  .buter {
+    background-image: url(images/buter.png);
+  }
+
+  .pi {
+    background-image: url(images/pi.png);
+  }
+
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    // КУАРКИ
+
+    .Q_archive_hype {
+      padding: 0.8vw 1.4vw;
+      outline: 0.2vw solid black;
+    }
+
+    // АТОМЫ
+
+    .A_img {
+      height: 15vw;
+      margin-bottom: 0.72vw;
+    }
+    .A_gradient_yellow {
+      top: -32vw;
+      left: -20vw;
+      height: 81vw;
+      width: 138vw;
+    }
+    // МОЛЕКУЛЫ
+
+    .M_card {
+      gap: 1.5vw;
+    }
+
+    // ОРГАНИЗМЫ
+    .O_commons_teg {
+      overflow-x: scroll;
+    }
+    // КОЛЛЕКЦИЯ
+
+    .C_archive_cards {
+      gap: 2vw;
+      margin-top: 1.5vw;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
+    // КУАРКИ
+
+    .Q_archive_hype {
+      padding: 1.8vw 3.4vw;
+      outline: 0.5vw solid black;
+    }
+
+    // АТОМЫ
+
+    .A_img {
+      height: 44vw;
+      margin-bottom: 2.5vw;
+    }
+    .A_gradient_yellow {
+      top: -59vw;
+      left: -84vw;
+      height: 175vw;
+      width: 266vw;
+      scale: 0.5 1;
+    }
+    // МОЛЕКУЛЫ
+
+    .M_card {
+      gap: 3vw;
+    }
+
+    // ОРГАНИЗМЫ
+
+    .O_commons_teg {
+      overflow-x: scroll;
+    }
+
+    // КОЛЛЕКЦИЯ
+
+    .C_archive_cards {
+      gap: 7vw;
+      margin-top: 1.5vw;
+      grid-template-columns: 1fr;
+    }
+
+    // ДОП.КЛАССЫ
+
+    .for_archive {
+      margin-top: 2vw;
+      flex-wrap: nowrap;
+    }
   }
 }

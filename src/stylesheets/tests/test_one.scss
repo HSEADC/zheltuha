@@ -1,0 +1,282 @@
+.test_one {
+  // КУАРКИ
+
+  .Q_test_page_progress_bar {
+    width: 100%;
+    height: 100%;
+    background-color: #d4d3c0;
+    border: 0.1vw solid black;
+  }
+
+  // АТОМЫ
+
+  .A_img {
+    background-image: url(images/morg.svg);
+    height: 40vw;
+  }
+
+  .A_test_page_card_of_true {
+    width: 100%;
+    background-color: #ffffff;
+    border: 0.1vw solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+    padding: 1.3vw;
+  }
+
+  .A_test_page_protsenty {
+    width: 100%;
+    background-color: #d4d3c0;
+    border: 0.1vw solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+    padding: 1.3vw;
+  }
+
+  .A_button {
+    background-color: #fcf549;
+    gap: 0.2vw;
+    padding: 1.5vw;
+
+    div {
+      position: relative;
+      background-image: url(images/arrow.svg);
+      transform: scaleX(-1);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 2vw;
+      height: 2vw;
+      margin-left: 1vw;
+    }
+  }
+
+  // МОЛЕКУЛЫ
+
+  .M_test_page_progress_bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1vw;
+    flex-direction: row;
+    gap: 1.5vw;
+  }
+
+  .M_button {
+    width: 50%;
+  }
+
+  .M_procent_button {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+  }
+
+  // ОРГАНИЗМЫ
+
+  .O_test_page_right_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    width: 100%;
+  }
+
+  .O_test_page_img_with_text_and_buttons {
+    width: 300%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+  }
+
+  // СУПЕР ОРГАНИЗМЫ
+
+  .S_screen {
+    text-align: left;
+    gap: 1.5vw;
+  }
+
+  .S_test_page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    gap: 1.5vw;
+  }
+
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    p {
+      max-width: 50vw;
+    }
+    // КУАРКИ
+
+    .Q_test_page_progress_bar {
+      border: 0.2vw solid black;
+    }
+
+    // АТОМЫ
+
+    .A_img {
+      height: 40vw;
+    }
+
+    .A_test_page_card_of_true {
+      width: 65%;
+      border: 0.2vw solid black;
+      gap: 0.8vw;
+      padding: 1.3vw;
+    }
+
+    .A_test_page_protsenty {
+      border: 0.2vw solid black;
+      gap: 0.2vw;
+      padding: 1.7vw;
+    }
+
+    .A_button {
+      gap: 0.2vw;
+      padding: 1.5vw;
+
+      div {
+        transform: scaleX(-1);
+        width: 2vw;
+        height: 2vw;
+        margin-left: 1vw;
+      }
+    }
+
+    // МОЛЕКУЛЫ
+
+    .M_test_page_progress_bar {
+      width: 100%;
+      height: 1vw;
+      gap: 1.5vw;
+    }
+
+    .M_button {
+      width: 50%;
+    }
+
+    .M_procent_button {
+      width: 35%;
+      gap: 1.7vw;
+    }
+
+    // ОРГАНИЗМЫ
+
+    .O_test_page_right_cards {
+      gap: 1.5vw;
+      width: 100%;
+      flex-direction: row;
+    }
+
+    .O_test_page_img_with_text_and_buttons {
+      width: 100%;
+      gap: 2vw;
+      align-items: center;
+      text-align: center;
+    }
+
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      text-align: left;
+      gap: 2vw;
+    }
+
+    .S_test_page {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      gap: 4vw;
+    }
+  }
+
+  @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
+    h2 {
+      text-align: left;
+    }
+    // КУАРКИ
+
+    .Q_test_page_progress_bar {
+      border: 0.5vw solid black;
+    }
+
+    // АТОМЫ
+
+    .A_img {
+      height: 90vw;
+    }
+
+    .A_test_page_card_of_true {
+      border: 0.5vw solid black;
+      gap: 0.8vw;
+      padding: 1.3vw;
+    }
+
+    .A_test_page_protsenty {
+      border: 0.5vw solid black;
+      gap: 0.2vw;
+      padding: 1.3vw;
+    }
+
+    .A_button {
+      gap: 0.2vw;
+      padding: 6.5vw;
+
+      div {
+        transform: scaleX(-1);
+        width: 2vw;
+        height: 2vw;
+        margin-left: 1vw;
+      }
+    }
+
+    // МОЛЕКУЛЫ
+
+    .M_test_page_progress_bar {
+      width: 100%;
+      height: 3vw;
+      gap: 3.5vw;
+    }
+    .M_button {
+      width: 100%;
+    }
+    .M_procent_button {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5vw;
+    }
+    // ОРГАНИЗМЫ
+
+    .O_test_page_right_cards {
+      gap: 1.5vw;
+      width: 100%;
+      display: none;
+    }
+
+    .O_test_page_img_with_text_and_buttons {
+      width: 100%;
+      gap: 6vw;
+      align-items: center;
+      text-align: center;
+    }
+
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      text-align: left;
+      gap: 6vw;
+    }
+
+    .S_test_page {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      gap: 4vw;
+    }
+  }
+}

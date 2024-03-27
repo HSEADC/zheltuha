@@ -1,127 +1,235 @@
 .investigations {
-  .screen {
-    position: relative;
-    width: 100%;
+  body {
     height: 100%;
-    background-color: #fcf549;
-    overflow: hidden;
   }
-  .columns {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    padding: 3.65vw 1.82vw 0 1.82vw;
-    justify-content: center;
-  }
+  // АТОМЫ
 
-  .column {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    outline: 0.2vw solid black;
-    overflow: scroll;
-  }
-
-  .column::-webkit-scrollbar {
-    display: none;
-  }
-  .new {
-    position: relative;
-    outline: 0.2vw solid black;
-    background-color: white;
-    padding: 1.3vw 1.04vw 1.56vw 1.04vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.52vw;
-    text-align: center;
-  }
-  .tagfamily {
-    justify-content: center;
-  }
-  .yellow {
-    background-color: #fbf448;
-    padding: 6.25vw 1.04vw 6.25vw 1.04vw;
-  }
-  .igolki {
+  .A_invest_sticker.one {
     position: absolute;
     top: 0;
     left: 0;
     width: 8.33vw;
     height: 6.77vw;
-    background: url(images/igolki.svg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(images/igolki.svg);
   }
-  .igolki2 {
+
+  .A_invest_sticker.two {
     position: absolute;
     bottom: 0;
     right: 0;
     transform: rotate(180deg);
     width: 8.33vw;
     height: 6.77vw;
-    background: url(images/igolki.svg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(images/igolki.svg);
   }
-  .papa {
-    position: relative;
-    width: 100%;
-    height: 27.82vw;
-    outline: 0.2vw solid black;
-    background: url(images/papa.png);
-    background-size: 100%;
+
+  .A_img {
     margin-bottom: 0.52vw;
+  }
+
+  // МОЛЕКУЛЫ
+
+  .M_card {
+    position: relative;
+    gap: 0.72vw;
+  }
+
+  // ОРГАНИЗМЫ
+
+  .O_invest_cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .O_invest_cards::-webkit-scrollbar {
+    display: none;
+  }
+
+  // КОЛЛЕКЦИИ
+
+  .C_invest_cards {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  // СУПЕР ОРГАНИЗМЫ
+
+  .S_screen {
+    background-color: white;
+    overflow-y: hidden;
+    padding: 3.7vw 4vw 0vw 4vw;
+    height: 100%;
+  }
+
+  // ДОП.КЛАССЫ
+
+  .yellow {
+    background-color: #fbf448;
+    padding: 6.25vw 1.04vw 6.25vw 1.04vw;
+  }
+
+  .size.one {
+    height: 25.82vw;
+  }
+
+  .size.two {
+    height: 15.75vw;
+  }
+
+  .size.three {
+    height: 28.48vw;
+  }
+
+  .papa {
+    background-image: url(images/papa.png);
   }
 
   .galkini {
-    position: relative;
-    width: 100%;
-    height: 17.75vw;
-    outline: 0.2vw solid black;
-    background: url(images/galkini.png);
-    background-size: 100%;
-    margin-bottom: 0.52vw;
+    background-image: url(images/galkini.png);
   }
 
   .galkin {
-    position: relative;
-    width: 100%;
-    height: 17.75vw;
-    outline: 0.2vw solid black;
-    background: url(images/galkin.png);
-    background-size: 100%;
-    margin-bottom: 0.52vw;
+    background-image: url(images/galkin.png);
   }
 
   .samka {
-    position: relative;
-    width: 100%;
-    height: 31.48vw;
-    outline: 0.2vw solid black;
-    background: url(images/samka.png);
-    background-size: 100%;
-    margin-bottom: 0.52vw;
+    background-image: url(images/samka.png);
   }
 
   .guzeeva {
-    position: relative;
-    width: 100%;
-    height: 21.51vw;
-    outline: 0.2vw solid black;
-    background: url(images/guzeeva.png);
-    background-size: 100%;
-    margin-bottom: 0.52vw;
+    background-image: url(images/guzeeva.png);
   }
 
   .prezi {
-    position: relative;
-    width: 100%;
-    height: 17.75vw;
-    outline: 0.2vw solid black;
-    background: url(images/prezi.png);
-    background-size: 100%;
-    margin-bottom: 0.52vw;
+    background-image: url(images/prezi.png);
+  }
+
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .A_invest_sticker.one {
+      width: 10.33vw;
+      height: 8.77vw;
+    }
+
+    .A_invest_sticker.two {
+      width: 10.33vw;
+      height: 8.77vw;
+    }
+
+    .A_img {
+      margin-bottom: 0.52vw;
+    }
+
+    // МОЛЕКУЛЫ
+
+    .M_card {
+      gap: 1.72vw;
+      padding: 1.7vw 1.7vw 2.7vw 1.7vw;
+    }
+
+    // ОРГАНИЗМЫ
+
+    .O_invest_cards:nth-child(4) {
+      display: none;
+    }
+
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      padding: 5.8vw 6vw 0vw 6vw;
+    }
+
+    // ДОП.КЛАССЫ
+
+    .yellow {
+      padding: 10.25vw 1.72vw 10.25vw 1.72vw;
+    }
+
+    .size.one {
+      height: 33.82vw;
+    }
+
+    .size.two {
+      height: 21.75vw;
+    }
+
+    .size.three {
+      height: 38.48vw;
+    }
+  }
+  @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
+    .A_invest_sticker.one {
+      width: 27.33vw;
+      height: 24.77vw;
+    }
+
+    .A_invest_sticker.two {
+      width: 27.33vw;
+      height: 24.77vw;
+    }
+
+    .A_img {
+      margin-bottom: 0.52vw;
+    }
+
+    // МОЛЕКУЛЫ
+
+    .M_card {
+      gap: 4.72vw;
+      padding: 4.7vw 4.7vw 6.7vw 4.7vw;
+    }
+
+    // ОРГАНИЗМЫ
+
+    .O_invest_cards {
+      overflow: visible;
+    }
+
+    // КОЛЛЕКЦИИ
+
+    .C_invest_cards {
+      flex-direction: column;
+      overflow: scroll;
+      justify-content: flex-start;
+    }
+
+    .C_invest_cards::-webkit-scrollbar {
+      display: none;
+    }
+
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      padding: 14vw 8vw 0vw 8vw;
+    }
+
+    // ДОП.КЛАССЫ
+
+    .yellow {
+      padding: 25.25vw 4.7vw 25.25vw 4.7vw;
+    }
+
+    .size.one {
+      height: 96.82vw;
+    }
+
+    .size.two {
+      height: 61.75vw;
+    }
+
+    .size.three {
+      height: 108.48vw;
+    }
   }
 }
