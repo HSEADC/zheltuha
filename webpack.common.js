@@ -104,15 +104,73 @@ module.exports = {
 
     //Article
     new HtmlWebpackPlugin({
+      template: './src/investigations/scarlet.html',
+      filename: './investigations/scarlet.html'
+    }),
+    new HtmlWebpackPlugin({
       template: './src/investigations/deepfake.html',
       filename: './investigations/deepfake.html'
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/investigations/guzeeva.html',
+      filename: './investigations/guzeeva.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/nasekomoe.html',
+      filename: './investigations/nasekomoe.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/kirkorov.html',
+      filename: './investigations/kirkorov.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/pivo.html',
+      filename: './investigations/pivo.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/pohudenie.html',
+      filename: './investigations/pohudenie.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/samka.html',
+      filename: './investigations/samka.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/zamok.html',
+      filename: './investigations/zamok.html'
+    }),
     new HtmlWebpackPlugin({
       template: './src/library/vanga.html',
       filename: './library/vanga.html'
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/library/burger.html',
+      filename: './library/burger.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/number.html',
+      filename: './library/number.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/gravity.html',
+      filename: './library/gravity.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/carrot.html',
+      filename: './library/carrot.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/travel.html',
+      filename: './library/travel.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/cyber.html',
+      filename: './library/cyber.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/tower.html',
+      filename: './library/tower.html'
+    }),
     new HtmlWebpackPlugin({
       template: './src/tests/test_one.html',
       filename: './tests/test_one.html'

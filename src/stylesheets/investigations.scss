@@ -93,29 +93,37 @@
   }
 
   .papa {
-    background-image: url(images/papa.png);
+    background-image: url(images/A_img_papa_5.svg);
   }
 
   .galkini {
-    background-image: url(images/galkini.png);
+    background-image: url(images/A_img_galkini_5.svg);
   }
 
-  .galkin {
-    background-image: url(images/galkin.png);
+  .pivo {
+    background-image: url(images/A_img_pivo_5.svg);
   }
 
   .samka {
-    background-image: url(images/samka.png);
+    background-image: url(images/A_img_samka_5.svg);
   }
 
   .guzeeva {
-    background-image: url(images/guzeeva.png);
+    background-image: url(images/A_img_guzeeva_5.svg);
   }
 
-  .prezi {
-    background-image: url(images/prezi.png);
+  .kirkorov {
+    background-image: url(images/A_img_kirkorov_5.svg);
   }
-
+  .scarlet {
+    background-image: url(images/A_img_scarlet_5.svg);
+  }
+  .pugacheva {
+    background-image: url(images/A_img_pugacheva_5.svg);
+  }
+  .nasekomoe {
+    background-image: url(images/A_img_nasekomoe_5.svg);
+  }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     .A_invest_sticker.one {
       width: 10.33vw;

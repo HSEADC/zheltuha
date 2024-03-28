@@ -1,10 +1,8 @@
 .veruneveru {
-  h1:nth-child(4) {
-    margin-top: 4vw;
-  }
   // АТОМЫ
 
   .A_img_veruneveru_decor {
+    display: inline-block;
     position: relative;
     height: 18.06vw;
     width: 23.4vw;
@@ -16,19 +14,37 @@
   .A_img {
     width: 26vw;
   }
+  .A_deepfake {
+    width: 26vw;
+  }
   // МОЛЕКУЛЫ
 
   .M_card_veruneveru_decor {
     display: inline-block;
     vertical-align: top;
-    height: 20vw;
-    margin: 3vw 2vw;
+    height: 28vw;
+    margin: 0 0 2vw 0;
+    width: 120vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
 
+  .M_card_veruneveru_decor::-webkit-scrollbar {
+    display: none;
+  }
   .M_veruneveru_choose_category {
     display: flex;
     flex-direction: row;
     margin: 1vw 0;
+
+    h6:hover {
+      background-color: #89887a;
+      transition: 0.2s;
+    }
+    h6:active {
+      background-color: #fcf549;
+      transition: 0.2s;
+    }
   }
 
   // КОЛЛЕКЦИИ
@@ -55,22 +71,51 @@
   .one_veruneveru {
     background-image: url(images/one_veruneveru.svg);
     transform: rotate(10deg);
+    top: 3vw;
+    transition: 0.2s;
   }
-
+  .one_veruneveru:hover {
+    top: 1vw;
+    transition: 0.2s;
+  }
   .two_veruneveru {
     background-image: url(images/two_veruneveru.svg);
     transform: rotate(-10deg);
+    top: 8vw;
+    transition: 0.2s;
+  }
+  .two_veruneveru:hover {
+    top: 6vw;
+    transition: 0.2s;
   }
   .three_veruneveru {
     background-image: url(images/three_veruneveru.svg);
+    top: 3vw;
+    transition: 0.2s;
+  }
+  .three_veruneveru:hover {
+    top: 1vw;
+    transition: 0.2s;
   }
   .four_veruneveru {
     background-image: url(images/four_veruneveru.svg);
     transform: rotate(10deg);
+    top: 8vw;
+    transition: 0.2s;
+  }
+  .four_veruneveru:hover {
+    top: 6vw;
+    transition: 0.2s;
   }
   .five_veruneveru {
     background-image: url(images/five_veruneveru.svg);
     transform: rotate(-10deg);
+    top: 3vw;
+    transition: 0.2s;
+  }
+  .five_veruneveru:hover {
+    top: 1vw;
+    transition: 0.2s;
   }
 
   .veruneveru_one {
@@ -90,8 +135,8 @@
   }
 
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    h1:nth-child(4) {
-      margin-top: 4vw;
+    p {
+      max-width: 45vw;
     }
     // АТОМЫ
 
@@ -138,10 +183,16 @@
       border: 0.5vw solid black;
     }
 
+    .A_img {
+      width: 100%;
+    }
     // МОЛЕКУЛЫ
 
     .M_card_veruneveru_decor {
       margin-top: 4vw;
+      height: 60vw;
+      margin: 2vw 0 2vw 0;
+      width: 294vw;
     }
 
     .M_veruneveru_choose_category {
@@ -161,6 +212,39 @@
 
     .S_screen {
       gap: 6vw;
+    }
+
+    // ДОП.КЛАССЫ
+
+    .one_veruneveru {
+      top: 7vw;
+    }
+    .one_veruneveru:hover {
+      top: 2vw;
+    }
+    .two_veruneveru {
+      top: 10vw;
+    }
+    .two_veruneveru:hover {
+      top: 5vw;
+    }
+    .three_veruneveru {
+      top: 12vw;
+    }
+    .three_veruneveru:hover {
+      top: 7vw;
+    }
+    .four_veruneveru {
+      top: 10vw;
+    }
+    .four_veruneveru:hover {
+      top: 4vw;
+    }
+    .five_veruneveru {
+      top: 7vw;
+    }
+    .five_veruneveru:hover {
+      top: 2vw;
     }
   }
 }

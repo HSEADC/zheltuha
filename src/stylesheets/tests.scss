@@ -1,4 +1,7 @@
 .tests {
+  p {
+    max-width: 46vw;
+  }
   .A_gradient_white {
     top: -18vw;
     left: -3vw;
@@ -73,6 +76,9 @@
   }
 
   @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
+    p {
+      max-width: 100%;
+    }
     .C_tests_choose {
       flex-direction: column;
       gap: 7vw;

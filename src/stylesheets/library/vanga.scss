@@ -7,7 +7,9 @@
     z-index: 2;
   }
   // АТОМЫ
-
+  .A_statia_date_hide {
+    display: none;
+  }
   .A_archivepage_img {
     height: 100%;
     width: 100%;
@@ -15,7 +17,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(images/vangaa.svg);
 
     display: flex;
     justify-content: space-between;
@@ -47,10 +48,10 @@
     position: absolute;
     top: 23.5vw;
   }
-  .A_commons_teg {
-    background-color: #d4d3c0;
-  }
 
+  .M_commons_teg_hide {
+    display: none;
+  }
   .M_archive_page {
     position: relative;
     display: flex;
@@ -92,6 +93,111 @@
     gap: 2vw;
   }
 
+  // ДОП.КЛАССЫ
+
+  .vanga {
+    background-image: url(images/A_img_vanga1.svg);
+  }
+
+  .tower {
+    background-image: url(images/A_img_tower1.svg);
+  }
+
+  .burger {
+    background-image: url(images/A_img_burger1.svg);
+  }
+
+  .number {
+    background-image: url(images/A_img_number1.svg);
+  }
+  .cyber {
+    background-image: url(images/A_img_cyber1.svg);
+  }
+  .carrot {
+    background-image: url(images/A_img_carrot1.svg);
+  }
+  .gravity {
+    background-image: url(images/A_img_gravity1.svg);
+  }
+  .travel {
+    background-image: url(images/A_img_travel1.svg);
+  }
+
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    // АТОМЫ
+    .A_archivepage_img {
+      border: 0.2vw solid black;
+    }
+
+    .A_statia_date {
+      padding: 1vw 5vw 1vw 5vw;
+      border: 0.2vw solid black;
+    }
+    .A_archivepage_img_hide {
+      position: relative;
+      height: 100%;
+      width: 55vw;
+      border: 0.2vw solid black;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url(images/vangaa.svg);
+
+      display: flex;
+      justify-content: space-between;
+    }
+    // МОЛЕКУЛЫ
+
+    .M_commons_teg {
+      display: none;
+    }
+    .M_commons_teg_hide {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      position: absolute;
+      top: 1.5vw;
+      z-index: 2;
+      gap: 0.52vw;
+    }
+    .M_archive_page {
+      width: 100%;
+      height: auto;
+
+      .A_archivepage_img {
+        display: none;
+      }
+    }
+
+    // ОРГАНИЗМЫ
+
+    .O_text {
+      padding: 0vw 5vw 5vw 5vw;
+      gap: 4vw;
+    }
+    .O_archive_page {
+      position: relative;
+      height: auto;
+    }
+    // СУПЕР ОРГАНИЗМЫ
+
+    .S_screen {
+      flex-direction: column;
+      gap: 0vw;
+      padding: 5.8vw 0vw 0vw 0vw;
+    }
+
+    .S_text {
+      display: flex;
+      flex-direction: column;
+      gap: 4vw;
+    }
+    .S_ipad_img_text {
+      display: flex;
+      width: 100%;
+      height: 100%;
+    }
+  }
   @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
     // АТОМЫ
 
@@ -104,14 +210,31 @@
     .A_statia_date {
       display: none;
     }
-
+    .A_statia_date_hide {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #d4d3c0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 2;
+      padding: 2.5vw 4vw;
+      border: 0.5vw solid black;
+      gap: 3vw;
+      h6 {
+        background-color: none;
+        padding: 0vw;
+        border: 0vw solid black;
+      }
+    }
     // МОЛЕКУЛЫ
 
     .M_commons_teg {
       top: 98.5vw;
       gap: 2vw;
-      margin-right: 8vw;
-      margin-left: 8vw;
+      padding: 0 2vw;
+      flex-wrap: wrap;
     }
 
     .M_archive_page {

@@ -30,9 +30,10 @@ body::-webkit-scrollbar-thumb {
 .Q_common_arrow_back {
   padding: 1.5vw;
   border: 0.1vw solid black;
-  background-color: #fbf448;
+  background-color: #d4d3c0;
   display: flex;
   justify-content: center;
+  transition: 0.2s;
 
   div {
     position: relative;
@@ -45,7 +46,10 @@ body::-webkit-scrollbar-thumb {
     margin: auto;
   }
 }
-
+.Q_common_arrow_back:hover {
+  background-color: #89887a;
+  transition: 0.2s;
+}
 .Q_hselogo {
   position: relative;
   width: 10.63vw;
@@ -204,10 +208,15 @@ body::-webkit-scrollbar-thumb {
 
 .A_commons_teg {
   display: inline-block;
-  background-color: white;
+  background-color: #d4d3c0;
   border: 0.1vw solid black;
   padding: 0.42vw 0.52vw;
   text-align: center;
+  transition: 0.2s;
+}
+.A_commons_teg:hover {
+  background-color: #89887a;
+  transition: 0.2s;
 }
 .A_img {
   height: 20vw;
@@ -217,7 +226,32 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+.A_answer {
+  display: none;
+  top: 5vw;
+  height: 15vw;
+  width: 26vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.original {
+  background-image: url(images/A_original.svg);
+}
+.fake {
+  background-image: url(images/A_deepfake.svg);
+}
+.A_deepfake {
+  display: none;
+  top: 2vw;
+  height: 15vw;
+  width: 26vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .A_statia_name {
   z-index: 1;
   padding: 5vw 2vw 5vw 2vw;
@@ -234,8 +268,17 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.2s;
 }
-
+.A_button:hover {
+  background-color: #89887a;
+  transition: 0.2s;
+}
+.active {
+  background-color: #000000;
+  color: white;
+  transition: 0.2s;
+}
 // МОЛЕКУЛЫ
 
 .M_menu_line_buttons {
@@ -266,8 +309,12 @@ body::-webkit-scrollbar-thumb {
   border: 0.1vw solid black;
   background-color: white;
   position: relative;
+  transition: 0.2s;
 }
-
+.M_card:hover {
+  background-color: #f0efe4;
+  transition: 0.2s;
+}
 .M_commons_teg {
   display: flex;
   width: 100%;
@@ -382,10 +429,11 @@ h2 {
 }
 h3 {
   font-family: 'zheltuhaRomanM';
-  font-size: 6.4vw;
+  font-size: 7.4vw;
   line-height: 95%;
   letter-spacing: -0.51vw;
   hyphens: auto;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -420,7 +468,7 @@ h6 {
 }
 .h7 {
   font-family: 'zheltuhaRomanM';
-  font-size: 9.2vw;
+  font-size: 9vw;
   line-height: 85%;
   letter-spacing: -0.7vw;
   text-transform: uppercase;
@@ -461,8 +509,8 @@ h6 {
     border: 0.2vw solid black;
 
     div {
-      width: 2vw;
-      height: 2vw;
+      width: 3vw;
+      height: 3vw;
     }
   }
 
@@ -543,7 +591,7 @@ h6 {
   }
 
   .A_statia_name {
-    padding: 5vw 2vw 5vw 2vw;
+    padding: 8vw 2vw 8vw 2vw;
     border: 0.2vw solid black;
   }
 
@@ -645,7 +693,7 @@ h6 {
     line-height: 75%;
   }
   h3 {
-    font-size: 6.4vw;
+    font-size: 7.9vw;
     line-height: 95%;
     letter-spacing: -0.51vw;
     text-transform: uppercase;
@@ -671,7 +719,7 @@ h6 {
     text-transform: uppercase;
     line-height: 95%;
     border: 0.2vw solid black;
-    padding: 0.5vw 2vw;
+    padding: 1vw 2vw;
   }
   .h7 {
     font-size: 7.8vw;

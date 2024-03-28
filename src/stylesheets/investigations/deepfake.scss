@@ -2,10 +2,15 @@
   h1:nth-child(4) {
     text-align: right;
   }
+  p {
+    z-index: 2;
+  }
+  h1 {
+    z-index: 2;
+  }
   // АТОМЫ
 
   .A_statia_img_big {
-    margin: 0 -8vw;
     height: 90vw;
     border: 0.1vw solid black;
     background-size: cover;
@@ -55,11 +60,15 @@
   .O_statia_preview {
     display: flex;
     flex-direction: column;
+    z-index: 2;
 
-    margin: 0 -8vw;
+    .A_statia_name {
+      padding: 5vw 5vw 5vw 5vw;
+    }
   }
 
   .O_statia_img_with_text {
+    z-index: 2;
     display: flex;
     flex-direction: row;
     gap: 4vw;
@@ -69,6 +78,8 @@
   // СУПЕР ОРГАНИЗМЫ
 
   .S_screen {
+    position: relative;
+    height: 100%;
     text-align: left;
     align-items: normal;
     background-color: #ffffff;
@@ -81,7 +92,13 @@
     padding: 4vw 4vw 0vw 4vw;
     gap: 2vw;
   }
+  .S_screen:nth-child(4) {
+    height: auto;
 
+    h1:nth-child(6) {
+      text-align: right;
+    }
+  }
   .S_screen:nth-child(5) {
     position: relative;
     text-align: left;
@@ -118,8 +135,104 @@
   .tetya {
     background-image: url(images/tetya.png);
   }
+  .guzeeva1 {
+    background-image: url(images/A_img_guzeeva_1.svg);
+  }
+  .guzeeva2 {
+    background-image: url(images/A_img_guzeeva_2.svg);
+  }
+  .guzeeva3 {
+    background-image: url(images/A_img_guzeeva_3.svg);
+  }
+  .guzeeva4 {
+    background-image: url(images/A_img_guzeeva_4.svg);
+  }
+  .galkini1 {
+    background-image: url(images/A_img_galkini_1.svg);
+  }
+  .galkini2 {
+    background-image: url(images/A_img_galkini_2.svg);
+  }
+  .galkini3 {
+    background-image: url(images/A_img_galkini_3.svg);
+  }
+  .galkini4 {
+    background-image: url(images/A_img_galkini_4.svg);
+  }
+  .pugacheva1 {
+    background-image: url(images/A_img_pugacheva_1.svg);
+  }
+  .pugacheva2 {
+    background-image: url(images/A_img_pugacheva_2.svg);
+  }
+  .pugacheva3 {
+    background-image: url(images/A_img_pugacheva_3.svg);
+  }
+  .pugacheva4 {
+    background-image: url(images/A_img_pugacheva_4.svg);
+  }
+  .samka1 {
+    background-image: url(images/A_img_samka_1.svg);
+  }
+  .samka2 {
+    background-image: url(images/A_img_samka_2.svg);
+  }
+  .samka3 {
+    background-image: url(images/A_img_samka_3.svg);
+  }
+  .pivo1 {
+    background-image: url(images/A_img_pivo_1.svg);
+  }
+  .pivo2 {
+    background-image: url(images/A_img_pivo_2.svg);
+  }
+  .pivo3 {
+    background-image: url(images/A_img_pivo_3.svg);
+  }
+  .pivo4 {
+    background-image: url(images/A_img_pivo_4.svg);
+  }
+  .nasekomoe1 {
+    background-image: url(images/A_img_nasekomoe_1.svg);
+  }
+  .nasekomoe2 {
+    background-image: url(images/A_img_nasekomoe_2.svg);
+  }
+  .nasekomoe3 {
+    background-image: url(images/A_img_nasekomoe_3.svg);
+  }
+  .nasekomoe4 {
+    background-image: url(images/A_img_nasekomoe_4.svg);
+  }
+  .kirkorov1 {
+    background-image: url(images/A_img_kirkorov_1.svg);
+  }
+  .kirkorov2 {
+    background-image: url(images/A_img_kirkorov_2.svg);
+  }
+  .kirkorov3 {
+    background-image: url(images/A_img_kirkorov_3.svg);
+  }
+  .kirkorov4 {
+    background-image: url(images/A_img_kirkorov_4.svg);
+  }
+  .scarlet1 {
+    background-image: url(images/A_img_scarlet_1.svg);
+  }
+  .scarlet2 {
+    background-image: url(images/A_img_scarlet_2.svg);
+  }
+  .scarlet3 {
+    background-image: url(images/A_img_scarlet_3.svg);
+  }
+  .scarlet4 {
+    background-image: url(images/A_img_scarlet_4.svg);
+  }
 
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    p {
+      max-width: 55vw;
+    }
     // АТОМЫ
 
     .A_statia_img_big {
@@ -197,6 +310,8 @@
 
     .A_statia_img_big {
       border: 0.5vw solid black;
+      margin: 0 -8vw;
+      height: 100%;
     }
 
     .A_statia_img_little {
@@ -221,6 +336,11 @@
 
     .O_statia_preview {
       margin-top: 2vw;
+      margin: 0 -8vw;
+
+      .A_statia_name {
+        padding: 15vw 5vw 15vw 5vw;
+      }
     }
 
     .O_statia_img_with_text {
@@ -245,6 +365,10 @@
     .S_screen:nth-child(4) {
       padding: 12vw 8vw 8vw 8vw;
       gap: 4vw;
+
+      h1:nth-child(6) {
+        text-align: left;
+      }
     }
 
     .S_screen:nth-child(5) {

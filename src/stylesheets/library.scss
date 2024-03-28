@@ -14,7 +14,7 @@
   // АТОМЫ
 
   .A_img {
-    height: 10vw;
+    height: 16vw;
     margin-bottom: 0.52vw;
   }
 
@@ -28,6 +28,10 @@
 
   .M_card {
     gap: 0.7vw;
+
+    &.hidden {
+      display: none;
+    }
   }
 
   // КОЛЛЕКЦИЯ
@@ -60,21 +64,32 @@
   }
 
   .vanga {
-    background-image: url(images/vanga.png);
+    background-image: url(images/A_img_vanga.svg);
   }
 
-  .bashnya {
-    background-image: url(images/bashnya.png);
+  .tower {
+    background-image: url(images/A_img_tower.svg);
   }
 
-  .buter {
-    background-image: url(images/buter.png);
+  .burger {
+    background-image: url(images/A_img_burger.svg);
   }
 
-  .pi {
-    background-image: url(images/pi.png);
+  .number {
+    background-image: url(images/A_img_number.svg);
   }
-
+  .cyber {
+    background-image: url(images/A_img_cyber.svg);
+  }
+  .carrot {
+    background-image: url(images/A_img_carrot.svg);
+  }
+  .gravity {
+    background-image: url(images/A_img_gravity.svg);
+  }
+  .travel {
+    background-image: url(images/A_img_travel.svg);
+  }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     // КУАРКИ
 
@@ -86,7 +101,7 @@
     // АТОМЫ
 
     .A_img {
-      height: 15vw;
+      height: 20vw;
       margin-bottom: 0.72vw;
     }
     .A_gradient_yellow {
@@ -104,6 +119,11 @@
     // ОРГАНИЗМЫ
     .O_commons_teg {
       overflow-x: scroll;
+      width: 88vw;
+    }
+
+    .O_commons_teg::-webkit-scrollbar {
+      display: none;
     }
     // КОЛЛЕКЦИЯ
 
@@ -125,7 +145,7 @@
     // АТОМЫ
 
     .A_img {
-      height: 44vw;
+      height: 61vw;
       margin-bottom: 2.5vw;
     }
     .A_gradient_yellow {
@@ -145,8 +165,11 @@
 
     .O_commons_teg {
       overflow-x: scroll;
+      width: 84vw;
     }
-
+    .O_commons_teg::-webkit-scrollbar {
+      display: none;
+    }
     // КОЛЛЕКЦИЯ
 
     .C_archive_cards {
