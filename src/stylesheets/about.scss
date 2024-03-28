@@ -1,12 +1,21 @@
 .about {
-  .S_screen {
-    position: relative;
-    background-color: #fcf549;
-    height: 75vw;
-    text-align: left;
-    gap: 2vw;
-    overflow: visible;
+  .p2 {
+    max-width: 31vw;
+    text-align: center;
   }
+
+  h1 {
+    z-index: 2;
+    max-width: 46vw;
+  }
+
+  p {
+    z-index: 2;
+    max-width: 34vw;
+  }
+
+  // АТОМЫ
+
   .A_img_hey {
     position: absolute;
     height: 85vw;
@@ -25,21 +34,73 @@
     position: absolute;
     top: 46vw;
   }
-  .p2 {
-    max-width: 31vw;
-    text-align: center;
-  }
 
-  h1 {
+  .A_img_comp {
+    position: absolute;
     z-index: 2;
-    max-width: 46vw;
+    height: 62vw;
+    top: 12vw;
+    left: 50vw;
+    width: 49vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/A_img_comp.svg);
   }
 
-  p {
+  .A_img_telefon {
+    position: absolute;
     z-index: 2;
-    max-width: 34vw;
+    height: 61vw;
+    top: 5vw;
+    left: -10vw;
+    width: 58vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/A_img_telefon.svg);
   }
 
+  .A_img_contact {
+    height: 33vw;
+    width: 29.4vw;
+    border: 0.1vw solid black;
+    box-shadow: 5px 0.5vw black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  // МОЛЕКУЛЫ
+
+  .M_text_with_h1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 2vw;
+    top: 8vw;
+    left: 52vw;
+    width: 30vw;
+  }
+
+  .M_img_contact {
+    z-index: 2;
+    display: flex;
+    gap: 1.5vw;
+    overflow-x: scroll;
+  }
+
+  .M_img_contact::-webkit-scrollbar {
+    display: none;
+  }
+
+  // СУПЕРОРГАНИЗМЫ
+
+  .S_screen {
+    position: relative;
+    background-color: #fcf549;
+    height: 75vw;
+    text-align: left;
+    gap: 2vw;
+    overflow: visible;
+  }
   .S_screen:nth-child(3) {
     align-items: baseline;
     height: 77vw;
@@ -53,28 +114,8 @@
     height: 70vw;
   }
 
-  .A_img_comp {
-    position: absolute;
-    z-index: 2;
-    height: 62vw;
-    top: 12vw;
-    left: 50vw;
-    width: 49vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(images/A_img_comp.svg);
-  }
-  .A_img_telefon {
-    position: absolute;
-    z-index: 2;
-    height: 61vw;
-    top: 5vw;
-    left: -10vw;
-    width: 58vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(images/A_img_telefon.svg);
-  }
+  // ДОП.КЛАССЫ
+
   .g_one {
     top: -22vw;
     left: -17vw;
@@ -105,6 +146,7 @@
     height: 69vw;
     background-position: 0;
   }
+
   .g_five {
     top: 0vw;
     left: 12vw;
@@ -113,50 +155,25 @@
     scale: 1.8 1;
     background-position: 0;
   }
-  .M_text_with_h1 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    gap: 2vw;
-    top: 8vw;
-    left: 52vw;
-    width: 30vw;
-  }
 
-  .M_img_contact {
-    z-index: 2;
-    display: flex;
-    gap: 1.5vw;
-    overflow-x: scroll;
-  }
-
-  .M_img_contact::-webkit-scrollbar {
-    display: none;
-  }
-  .A_img_contact {
-    height: 33vw;
-    width: 29.4vw;
-    border: 0.1vw solid black;
-    box-shadow: 5px 0.5vw black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
   .I_one {
     background-image: url(images/A_img_contact_one.svg);
   }
+
   .I_two {
     background-image: url(images/A_img_contact_two.svg);
   }
+
   .I_three {
     background-image: url(images/A_img_contact_three.svg);
   }
 
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .S_screen {
-      gap: 3vw;
-      height: 85vw;
+    .p2 {
+      max-width: 36vw;
     }
+    // АТОМЫ
+
     .A_img_hey {
       top: 0vw;
     }
@@ -166,19 +183,12 @@
       border: 0.2vw solid black;
       top: 51vw;
     }
-    .p2 {
-      max-width: 36vw;
-    }
 
-    .S_screen:nth-child(3) {
-      height: 81vw;
-    }
-    .S_screen:nth-child(4) {
-      height: 80vw;
-    }
-    .S_screen:nth-child(5) {
-      padding: 6vw;
-      height: 58vw;
+    .A_img_contact {
+      height: 32vw;
+      width: 28vw;
+      border: 0.1vw solid black;
+      box-shadow: 5px 0.5vw black;
     }
 
     .A_img_telefon {
@@ -186,6 +196,40 @@
       left: -10vw;
       width: 64vw;
     }
+    // МОЛЕКУЛЫ
+
+    .M_text_with_h1 {
+      gap: 3vw;
+      top: 12vw;
+      width: 34vw;
+    }
+
+    .M_img_contact {
+      gap: 2vw;
+    }
+
+    // СУПЕРОРГАНИЗМЫ
+
+    .S_screen {
+      gap: 3vw;
+      height: 85vw;
+    }
+
+    .S_screen:nth-child(3) {
+      height: 81vw;
+    }
+
+    .S_screen:nth-child(4) {
+      height: 80vw;
+    }
+
+    .S_screen:nth-child(5) {
+      padding: 6vw;
+      height: 58vw;
+    }
+
+    // ДОП.КЛАССЫ
+
     .g_one {
       top: -4vw;
       left: -18vw;
@@ -217,28 +261,22 @@
       left: 8vw;
       width: 65.1vw;
     }
-    .M_text_with_h1 {
-      gap: 3vw;
-      top: 12vw;
-      width: 34vw;
-    }
-
-    .M_img_contact {
-      gap: 2vw;
-    }
-    .A_img_contact {
-      height: 32vw;
-      width: 28vw;
-      border: 0.1vw solid black;
-      box-shadow: 5px 0.5vw black;
-    }
   }
 
   @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
-    .S_screen {
-      gap: 7vw;
-      height: 228vw;
+    h1 {
+      max-width: 100%;
+      font-size: 21.7vw;
     }
+
+    p {
+      max-width: 100%;
+    }
+    .p2 {
+      max-width: 80%;
+    }
+    // АТОМЫ
+
     .A_img_hey {
       top: 0vw;
       height: 230vw;
@@ -251,31 +289,6 @@
       border: 0.5vw solid black;
       top: 135vw;
     }
-    h1 {
-      max-width: 100%;
-      font-size: 21.7vw;
-    }
-
-    p {
-      max-width: 100%;
-    }
-    .p2 {
-      max-width: 80%;
-    }
-
-    .S_screen:nth-child(3) {
-      height: 290vw;
-    }
-    .S_screen:nth-child(4) {
-      height: 275vw;
-    }
-    .S_screen:nth-child(5) {
-      height: auto;
-
-      h1 {
-        max-width: 45vw;
-      }
-    }
 
     .A_img_comp {
       height: 148vw;
@@ -283,12 +296,59 @@
       width: 104vw;
       top: 122vw;
     }
+
     .A_img_telefon {
       height: 149vw;
       left: -27vw;
       top: 127vw;
       width: 127vw;
     }
+
+    .A_img_contact {
+      height: 94vw;
+      width: 84vw;
+      border: 0.1vw solid black;
+      box-shadow: 5px 0.5vw black;
+    }
+    // МОЛЕКУЛЫ
+
+    .M_text_with_h1 {
+      gap: 7vw;
+      top: 0;
+      width: 100%;
+      left: 0;
+    }
+
+    .M_img_contact {
+      gap: 6vw;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    // СУПЕРОРГАНИЗМЫ
+
+    .S_screen {
+      gap: 7vw;
+      height: 228vw;
+    }
+
+    .S_screen:nth-child(3) {
+      height: 290vw;
+    }
+
+    .S_screen:nth-child(4) {
+      height: 275vw;
+    }
+
+    .S_screen:nth-child(5) {
+      height: auto;
+
+      h1 {
+        max-width: 45vw;
+      }
+    }
+    // ДОП.КЛАССЫ
+
     .g_one {
       display: none;
     }
@@ -312,24 +372,6 @@
       left: -54vw;
       width: 110vw;
       height: 170vw;
-    }
-    .M_text_with_h1 {
-      gap: 7vw;
-      top: 0;
-      width: 100%;
-      left: 0;
-    }
-
-    .M_img_contact {
-      gap: 6vw;
-      flex-direction: column;
-      width: 100%;
-    }
-    .A_img_contact {
-      height: 94vw;
-      width: 84vw;
-      border: 0.1vw solid black;
-      box-shadow: 5px 0.5vw black;
     }
   }
 }

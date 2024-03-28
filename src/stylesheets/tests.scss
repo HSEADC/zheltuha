@@ -61,16 +61,7 @@
     background-image: url(images/A_img_test_three.svg);
   }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .C_tests_choose {
-      flex-direction: row;
-      gap: 2vw;
-
-      margin-top: 2vw;
-
-      a {
-        flex-direction: row;
-      }
-    }
+    // АТОМЫ
 
     .A_img {
       height: 30vw;
@@ -82,12 +73,34 @@
       height: 81vw;
       width: 138vw;
     }
+
+    // КОЛЛЕКЦИИ
+
+    .C_tests_choose {
+      flex-direction: row;
+      gap: 2vw;
+
+      margin-top: 2vw;
+
+      a {
+        flex-direction: row;
+      }
+    }
   }
 
   @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
     p {
       max-width: 100%;
     }
+    // АТОМЫ
+    .A_gradient_white {
+      top: -59vw;
+      left: -84vw;
+      height: 175vw;
+      width: 266vw;
+      scale: 0.5 1;
+    }
+    // КОЛЛЕКЦИИ
     .C_tests_choose {
       flex-direction: column;
       gap: 7vw;
@@ -97,13 +110,6 @@
       a {
         flex-direction: column;
       }
-    }
-    .A_gradient_white {
-      top: -59vw;
-      left: -84vw;
-      height: 175vw;
-      width: 266vw;
-      scale: 0.5 1;
     }
   }
 }

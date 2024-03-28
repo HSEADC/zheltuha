@@ -1,81 +1,76 @@
 import { list } from 'postcss'
 import './index.css'
+// ФИЛЬТРАЦИЯ
 
-//   GetContentCardDataTags()
-//   function GetContentCardDataTags() {
-//     const contentCards = document.getElementsByClassName('M_card')
-//     const tags = []
-//     const transformedTags = []
-//     for (let index = 0; index < contentCards.length; index++) {
-//       const contentCard = contentCards[index]
-//       const ContentCardsTags = contentCard.dataset.tags.split(',')
-//       tags.push(...ContentCardsTags)
-//     }
-//     tags.forEach((tags) => {
-//       transformedTags.push(tags.toLowerCase())
-//     })
-//     const UniqueTags = [...new Set(transformedTags)]
-//     return UniqueTags.sort()
-//   }
-//   function updateContent() {
-//     const contentCards = document.querySelectorAll('.M_card')
-//     const SelectedTags = []
-//     MultiSelectOptions.forEach((obj) => {
-//       if (obj.active) {
-//         SelectedTags.push(obj.text)
-//       }
-//       console.log(SelectedTags)
-//     })
-//   }
-//   const MultiSelectOptions = []
-//   GetContentCardDataTags().forEach((tag) => {
-//     MultiSelectOptions.push({
-//       text: tag,
-//       active: false
-//     })
-//     console.log(MultiSelectOptions)
-//   })
-//   document.querySelectorAll('A_button').addEventListener('click') {
-//   }
+document.addEventListener('DOMContentLoaded', () => {
+  const tags = document.querySelectorAll('.A_commons_teg')
+  const cards = document.querySelectorAll('.M_card')
+  const cardsContainer = document.querySelector('.C_archive_cards')
 
-// document.addEventListener('DOMContentLoaded', function () {
-//   const button = document.querySelectorAll('.A_button')
-//   const image = document.querySelector('.A_answer')
+  tags.forEach((tag) => {
+    tag.addEventListener('click', () => {
+      const filter = tag.textContent.trim()
+      tags.forEach((t) => (t.style.backgroundColor = ''))
+      tag.style.backgroundColor = '#fcf549'
+      let visibleCardsCount = 0
 
-//   button.addEventListener('click', function () {
-//     button.classList.add('.active')
-//     if (image.style.display === 'none') {
-//       // Если картинка скрыта, отображаем её
-//       image.style.display = 'block'
-//     } else {
-//       // Если картинка отображается, скрываем её
-//       image.style.display = 'none'
-//     }
+      cards.forEach((card) => {
+        const cardTags = card.querySelectorAll('.A_commons_teg')
+        if (
+          Array.from(cardTags).some(
+            (cardTag) => cardTag.textContent.trim() === filter
+          )
+        ) {
+          card.style.display = ''
+          visibleCardsCount++
+        } else {
+          card.style.display = 'none'
+        }
+      })
 
-//     // Button.classList.add('active')
-//     // document.querySelector('.A_deepfake').classList.add('.visible')
-//   })
-
-document.addEventListener('DOMContentLoaded', function () {
-  const buttons = document.querySelectorAll('.A_button')
-
-  buttons.forEach((button, index) => {
-    console.log(button)
-    const card = button.closest('.M_card')
-    const image = card.querySelector('.A_answer')
-    image.style.display = 'none'
-
-    button.addEventListener('click', function () {
-      if (image.style.display === 'none') {
-        // Если картинка скрыта, отображаем её
-        image.style.display = 'block'
+      if (visibleCardsCount > 0 && visibleCardsCount <= 4) {
+        cardsContainer.style.gridTemplateColumns = `repeat(${visibleCardsCount}, 315.55px)`
       } else {
-        // Если картинка отображается, скрываем её
-        image.style.display = 'none'
+        cardsContainer.style.gridTemplateColumns = 'repeat(4, 1fr)'
       }
     })
+  })
+
+  // ВЕРЮ НЕ ВЕРЮ
+  const buttons = document.querySelectorAll('.A_button')
+
+  buttons.forEach((button) => {
     button.addEventListener('click', function () {
-      button.setAttribute('style', 'background-color: #000000')
+      const card = button.closest('.M_card')
+
+      const image = card.querySelector('.A_answer')
+      image.style.display = 'none'
+
+      if (image.style.display === 'none') {
+        image.style.display = 'block'
+      } else {
+        image.style.display = 'none'
+      }
+      button.classList.add('active')
+
+      const allButtonsInContainer = card.querySelectorAll('.A_button')
+      allButtonsInContainer.forEach((btn) => {
+        if (btn !== button) {
+          btn.disabled = true
+          btn.style.pointerEvents = 'none'
+        }
+      })
+    })
+  })
+
+  // ТЕСТЫ
+  const buttons2 = document.querySelectorAll('.A_button')
+
+  buttons2.forEach((button) => {
+    button.addEventListener('click', function (event) {
+      const buttonText = button.textContent.trim().toLowerCase()
+      const cardContainer = document.querySelector('.O_test_page_right_cards')
+      cardContainer.style.opacity = '1'
     })
   })
 })

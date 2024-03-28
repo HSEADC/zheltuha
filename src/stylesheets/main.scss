@@ -449,7 +449,7 @@ h4 {
   font-family: 'zheltuhaRomanM';
   font-size: 4.2vw;
   line-height: 95%;
-  letter-spacing: -0.3vw;
+  letter-spacing: -4.3px;
   text-transform: uppercase;
 }
 
@@ -488,6 +488,7 @@ h6 {
   gap: 0.52vw;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 1vw;
 }
 .for_archive {
   justify-content: space-between;
@@ -609,6 +610,11 @@ h6 {
     border: 0.2vw solid black;
   }
 
+  .A_soon {
+    top: 8vw;
+    height: 13vw;
+    width: 24.35vw;
+  }
   // МОЛЕКУЛЫ
 
   .M_menu_line_buttons {
@@ -710,7 +716,7 @@ h6 {
   h4 {
     font-size: 4.7vw;
     line-height: 90%;
-    letter-spacing: -0.4vw;
+    letter-spacing: -4.3px;
     text-transform: uppercase;
   }
 
@@ -853,7 +859,11 @@ h6 {
     padding: 0.5vw 2vw;
     border: 0.5vw solid black;
   }
-
+  .A_soon {
+    top: 11vw;
+    height: 42vw;
+    width: 74.15vw;
+  }
   // МОЛЕКУЛЫ
 
   .M_menu_line_buttons {
@@ -955,7 +965,7 @@ h6 {
   h4 {
     font-size: 14.7vw;
     line-height: 90%;
-    letter-spacing: -1vw;
+    letter-spacing: -4.3px;
     text-transform: uppercase;
   }
 

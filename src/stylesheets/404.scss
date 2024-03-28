@@ -1,4 +1,11 @@
 .fault404 {
+  .p2 {
+    max-width: 31vw;
+    text-align: center;
+  }
+
+  // АТОМЫ
+
   .A_text_square {
     padding: 2vw;
     background-color: white;
@@ -6,21 +13,14 @@
     position: absolute;
     top: 45vw;
   }
-  .p2 {
-    max-width: 31vw;
-    text-align: center;
-  }
-  .S_screen {
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-  }
+
   .A_gradient_yellow {
     top: 0vw;
     left: -3vw;
     height: 52vw;
     width: 106vw;
   }
+
   .A_img_fault_1 {
     position: absolute;
     top: 11vw;
@@ -33,6 +33,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_1.svg);
   }
+
   .A_img_fault_2 {
     position: absolute;
     top: 8vw;
@@ -45,6 +46,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_2.svg);
   }
+
   .A_img_fault_3 {
     position: absolute;
     top: 23vw;
@@ -57,6 +59,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_3.svg);
   }
+
   .A_img_fault_4 {
     position: absolute;
     top: 35vw;
@@ -69,6 +72,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_4.svg);
   }
+
   .A_img_fault_5 {
     position: absolute;
     top: 39vw;
@@ -81,6 +85,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_5.svg);
   }
+
   .A_img_fault_6 {
     position: relative;
     width: 51vw;
@@ -90,6 +95,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_6.svg);
   }
+
   .A_img_fault_7 {
     position: absolute;
     top: 6vw;
@@ -102,6 +108,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_7.svg);
   }
+
   .A_img_fault_8 {
     position: absolute;
     top: 7vw;
@@ -114,6 +121,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_8.svg);
   }
+
   .A_img_fault_9 {
     position: absolute;
     top: 23vw;
@@ -126,6 +134,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_9.svg);
   }
+
   .A_img_fault_10 {
     position: absolute;
     top: 33vw;
@@ -138,6 +147,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_10.svg);
   }
+
   .A_img_fault_11 {
     position: absolute;
     top: 36vw;
@@ -150,6 +160,7 @@
     background-position: center center;
     background-image: url(images/A_img_fault_11.svg);
   }
+
   .A_img_fault_12 {
     position: relative;
     width: 51vw;
@@ -160,19 +171,31 @@
     background-image: url(images/A_img_fault_12.svg);
   }
 
+  // СУПЕРОРГАНИЗМЫ
+
+  .S_screen {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .A_gradient_yellow {
-      top: 44vw;
-    }
     .p2 {
       max-width: 37vw;
       text-align: center;
     }
+    // АТОМЫ
+
+    .A_gradient_yellow {
+      top: 44vw;
+    }
+
     .A_text_square {
       padding: 3vw;
       border: 0.2vw solid black;
       top: 90vw;
     }
+
     .A_img_fault_1 {
       top: 51vw;
       left: 21vw;
@@ -180,6 +203,7 @@
       height: 11vw;
       border: 0.2vw solid black;
     }
+
     .A_img_fault_2 {
       top: 48vw;
       left: 74vw;
@@ -187,6 +211,7 @@
       height: 11vw;
       border: 0.2vw solid black;
     }
+
     .A_img_fault_3 {
       top: 63vw;
       left: 49vw;
@@ -194,6 +219,7 @@
       height: 11vw;
       border: 0.2vw solid black;
     }
+
     .A_img_fault_4 {
       top: 75vw;
       left: 71vw;
@@ -201,6 +227,7 @@
       height: 11vw;
       border: 0.2vw solid black;
     }
+
     .A_img_fault_5 {
       top: 79vw;
       left: 18vw;
@@ -216,6 +243,7 @@
       height: 14vw;
       border: 0.2vw solid black;
     }
+
     .A_img_fault_8 {
       top: 47vw;
       left: 70vw;
@@ -223,6 +251,7 @@
       height: 11vw;
       border: 0.2vw solid black;
     }
+
     .A_img_fault_9 {
       top: 63vw;
       left: 49vw;
@@ -230,6 +259,7 @@
       height: 11vw;
       border: 0.2vw solid black;
     }
+
     .A_img_fault_10 {
       top: 73vw;
       left: 18vw;
@@ -237,6 +267,7 @@
       height: 11vw;
       border: 0.2vw solid black;
     }
+
     .A_img_fault_11 {
       top: 76vw;
       left: 67vw;
@@ -246,23 +277,24 @@
     }
   }
   @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
+    .p2 {
+      max-width: 84vw;
+    }
+    // АТОМЫ
+
     .A_text_square {
       padding: 4vw;
       border: 0.5vw solid black;
       top: 150vw;
     }
-    .p2 {
-      max-width: 84vw;
-    }
-    .S_screen {
-      height: 100%;
-    }
+
     .A_gradient_yellow {
       top: 56vw;
       left: -50vw;
       height: 126vw;
       width: 200vw;
     }
+
     .A_img_fault_1 {
       top: 117vw;
       left: 52vw;
@@ -270,6 +302,7 @@
       height: 26vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_2 {
       top: 83vw;
       left: 74vw;
@@ -277,6 +310,7 @@
       height: 26vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_3 {
       top: 46vw;
       left: 52vw;
@@ -284,6 +318,7 @@
       height: 26vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_4 {
       top: 133vw;
       left: 4vw;
@@ -291,6 +326,7 @@
       height: 26vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_5 {
       top: 74vw;
       left: 18vw;
@@ -298,10 +334,12 @@
       height: 26vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_6 {
       width: 72vw;
       height: 51vw;
     }
+
     .A_img_fault_7 {
       top: 67vw;
       left: 8vw;
@@ -309,6 +347,7 @@
       height: 29vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_8 {
       top: 42vw;
       left: 49vw;
@@ -316,6 +355,7 @@
       height: 29vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_9 {
       top: 133vw;
       left: 49vw;
@@ -323,6 +363,7 @@
       height: 26vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_10 {
       top: 136vw;
       left: -3vw;
@@ -330,6 +371,7 @@
       height: 26vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_11 {
       top: 84vw;
       left: 67vw;
@@ -337,9 +379,15 @@
       height: 26vw;
       border: 0.5vw solid black;
     }
+
     .A_img_fault_12 {
       width: 72vw;
       height: 51vw;
+    }
+    // СУПЕРОРГАНИЗМЫ
+
+    .S_screen {
+      height: 100%;
     }
   }
 }
