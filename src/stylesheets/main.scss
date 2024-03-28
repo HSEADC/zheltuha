@@ -236,6 +236,16 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   background-position: center center;
 }
+.A_soon {
+  top: 5vw;
+  height: 13vw;
+  width: 26.65vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(images/A_soon.svg);
+}
 .original {
   background-image: url(images/A_original.svg);
 }
@@ -357,7 +367,6 @@ body::-webkit-scrollbar-thumb {
   background-color: white;
   display: flex;
   outline: 0.1vw solid black;
-  box-shadow: 0px -4.69vw 2.6vw rgba(255, 255, 255, 0.5);
   justify-content: space-between;
 }
 
@@ -643,7 +652,6 @@ h6 {
   .O_footer {
     padding: 2.15vw 6vw;
     outline: 0.2vw solid black;
-    box-shadow: 0px -4.69vw 2.6vw rgba(255, 255, 255, 0.5);
   }
 
   // СУПЕР ОРГАНИЗМЫ
@@ -889,7 +897,6 @@ h6 {
   .O_footer {
     padding: 5.15vw 8vw;
     outline: 0.5vw solid black;
-    box-shadow: 0px -4.69vw 2.6vw rgba(255, 255, 255, 0.5);
   }
 
   // СУПЕР ОРГАНИЗМЫ

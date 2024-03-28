@@ -2,12 +2,21 @@
   p {
     max-width: 46vw;
   }
+  // АТОМЫ
+
   .A_gradient_white {
     top: -18vw;
     left: -3vw;
     height: 52vw;
     width: 106vw;
   }
+
+  // МОЛЕКУЛЫ
+
+  .M_card:hover {
+    background-color: white;
+  }
+
   // КОЛЛЕКЦИИ
 
   .C_tests_choose {

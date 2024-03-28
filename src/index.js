@@ -38,22 +38,44 @@ import './index.css'
 //   document.querySelectorAll('A_button').addEventListener('click') {
 //   }
 
+// document.addEventListener('DOMContentLoaded', function () {
+//   const button = document.querySelectorAll('.A_button')
+//   const image = document.querySelector('.A_answer')
+
+//   button.addEventListener('click', function () {
+//     button.classList.add('.active')
+//     if (image.style.display === 'none') {
+//       // Если картинка скрыта, отображаем её
+//       image.style.display = 'block'
+//     } else {
+//       // Если картинка отображается, скрываем её
+//       image.style.display = 'none'
+//     }
+
+//     // Button.classList.add('active')
+//     // document.querySelector('.A_deepfake').classList.add('.visible')
+//   })
+
 document.addEventListener('DOMContentLoaded', function () {
-  const button = document.querySelectorAll('.A_button')
-  const image = document.querySelector('.A_answer')
+  const buttons = document.querySelectorAll('.A_button')
 
-  button.addEventListener('click', function () {
-    button.classList.add('.active')
-    if (image.style.display === 'none') {
-      // Если картинка скрыта, отображаем её
-      image.style.display = 'block'
-    } else {
-      // Если картинка отображается, скрываем её
-      image.style.display = 'none'
-    }
+  buttons.forEach((button, index) => {
+    console.log(button)
+    const card = button.closest('.M_card')
+    const image = card.querySelector('.A_answer')
+    image.style.display = 'none'
 
-    // Button.classList.add('active')
-    // document.querySelector('.A_deepfake').classList.add('.visible')
+    button.addEventListener('click', function () {
+      if (image.style.display === 'none') {
+        // Если картинка скрыта, отображаем её
+        image.style.display = 'block'
+      } else {
+        // Если картинка отображается, скрываем её
+        image.style.display = 'none'
+      }
+    })
+    button.addEventListener('click', function () {
+      button.setAttribute('style', 'background-color: #000000')
+    })
   })
-  console.log(button)
 })

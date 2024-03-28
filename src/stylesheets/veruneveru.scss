@@ -18,7 +18,9 @@
     width: 26vw;
   }
   // МОЛЕКУЛЫ
-
+  .M_card:hover {
+    background-color: white;
+  }
   .M_card_veruneveru_decor {
     display: inline-block;
     vertical-align: top;

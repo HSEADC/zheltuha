@@ -1,0 +1,59 @@
+.test_seven {
+  h1 {
+    margin-bottom: 2vw;
+    max-width: 70vw;
+  }
+
+  .A_img_smile {
+    width: 100%;
+    height: 20vw;
+    border: 0.1vw solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(images/A_img_smile.svg);
+  }
+  .A_button {
+    height: 5vw;
+  }
+  .S_screen {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 9vw 8vw 4vw 8vw;
+
+    a {
+      width: 100%;
+    }
+  }
+
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .S_screen {
+      height: auto;
+      padding: 14vw 8vw 4vw 8vw;
+    }
+    .A_button {
+      height: 8vw;
+    }
+    .A_img_smile {
+      height: 30vw;
+      border: 0.2vw solid black;
+    }
+  }
+  @media all and (min-device-width: 428px) and (max-device-width: 1023px) {
+    h1 {
+      margin-bottom: 2vw;
+      max-width: 100%;
+    }
+    .S_screen {
+      padding: 25vw 9vw 4vw 9vw;
+    }
+    .A_img_smile {
+      height: 74vw;
+      border: 0.5vw solid black;
+    }
+    .A_button {
+      height: 16vw;
+    }
+  }
+}

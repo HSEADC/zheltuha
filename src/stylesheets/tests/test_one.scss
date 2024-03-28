@@ -7,14 +7,32 @@
     background-color: #d4d3c0;
     border: 0.1vw solid black;
   }
-
+  .yellow {
+    background-color: #fcf549;
+  }
   // АТОМЫ
 
   .A_img {
-    background-image: url(images/morg.svg);
     height: 40vw;
   }
-
+  .morg {
+    background-image: url(images/morg.svg);
+  }
+  .pirat {
+    background-image: url(images/A_img_pirat.svg);
+  }
+  .chushpan {
+    background-image: url(images/A_img_chushpan.svg);
+  }
+  .tachki {
+    background-image: url(images/A_img_tachki.svg);
+  }
+  .papa1 {
+    background-image: url(images/A_img_papa1.svg);
+  }
+  .hospital {
+    background-image: url(images/A_img_hospital.svg);
+  }
   .A_test_page_card_of_true {
     width: 100%;
     background-color: #ffffff;
@@ -76,6 +94,7 @@
   // ОРГАНИЗМЫ
 
   .O_test_page_right_cards {
+    opacity: 0;
     display: flex;
     flex-direction: column;
     gap: 1.5vw;
@@ -94,6 +113,7 @@
   .S_screen {
     text-align: left;
     gap: 1.5vw;
+    height: 100%;
   }
 
   .S_test_page {

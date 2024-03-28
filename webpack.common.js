@@ -175,12 +175,42 @@ module.exports = {
       template: './src/tests/test_one.html',
       filename: './tests/test_one.html'
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_one_two.html',
+      filename: './tests/test_one_two.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_one_three.html',
+      filename: './tests/test_one_three.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_one_four.html',
+      filename: './tests/test_one_four.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_one_five.html',
+      filename: './tests/test_one_five.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_one_six.html',
+      filename: './tests/test_one_six.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_one_seven.html',
+      filename: './tests/test_one_seven.html'
+    }),
     new HtmlWebpackPlugin({
       template: './src/veruneveru.html',
       filename: './veruneveru.html'
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/404.html',
+      filename: './404.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/505.html',
+      filename: './505.html'
+    }),
     new HtmlWebpackPlugin({
       template: './src/library.html',
       filename: './library.html'

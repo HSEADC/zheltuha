@@ -13,5 +13,7 @@
 @import 'stylesheets/index2.scss';
 @import 'stylesheets/investigations/deepfake.scss';
 @import 'stylesheets/tests.scss';
+@import 'stylesheets/404.scss';
 @import 'stylesheets/veruneveru.scss';
 @import 'stylesheets/tests/test_one.scss';
+@import 'stylesheets/tests/test_seven.scss';
