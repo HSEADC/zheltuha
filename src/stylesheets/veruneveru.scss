@@ -14,6 +14,7 @@
   .A_img {
     width: 26vw;
   }
+
   .zagolovki_img {
     height: 14vw;
   }
@@ -46,10 +47,6 @@
       background-color: #89887a;
       transition: 0.2s;
     }
-    h6:active {
-      background-color: #fcf549;
-      transition: 0.2s;
-    }
   }
 
   // КОЛЛЕКЦИИ
@@ -72,7 +69,12 @@
   }
 
   // ДОП.КЛАССЫ
-
+  .zagolovki {
+    display: none;
+  }
+  .knopka {
+    background-color: #fbf448;
+  }
   .one_veruneveru {
     background-image: url(images/one_veruneveru.svg);
     transform: rotate(10deg);

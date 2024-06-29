@@ -2,13 +2,19 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    searchdata: './src/js/searchdata.js',
+    choose: './src/js/choose.js',
+    articlesearch: './src/js/articlesearch.jsx',
+    asearch: './src/components/A_search/A_search.jsx',
+    S_SearchContent: './src/components/S_SearchContent/S_SearchContent.jsx'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -89,6 +95,26 @@ module.exports = {
     ]
   },
   plugins: [
+    new CopyPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, 'src/share/'),
+          to: path.resolve(__dirname, 'dev_build/share/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/share/'),
+          to: path.resolve(__dirname, 'docs/share/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/images/search/'),
+          to: path.resolve(__dirname, 'dev_build/images/search/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/images/search/'),
+          to: path.resolve(__dirname, 'docs/images/search/')
+        }
+      ]
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css'
@@ -329,7 +355,8 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/veruneveru.html',
-      filename: './veruneveru.html'
+      filename: './veruneveru.html',
+      chunks: ['index', 'choose']
     }),
     new HtmlWebpackPlugin({
       template: './src/404.html',
@@ -349,7 +376,14 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/search.html',
-      filename: './search.html'
+      filename: './search.html',
+      chunks: [
+        'index',
+        'searchdata',
+        'articlesearch',
+        'S_SearchContent',
+        'asearch'
+      ]
     }),
     new HtmlWebpackPlugin({
       template: './src/investigations.html',

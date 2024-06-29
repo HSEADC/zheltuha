@@ -1,7 +1,6 @@
 .search {
   .S_screen {
     position: relative;
-    height: 100%;
     background-color: white;
     gap: 2.5vw;
   }
@@ -16,6 +15,12 @@
     gap: 1.5vw;
     width: 100%;
   }
+  .M_card {
+    gap: 0.7vw;
+  }
+  .A_img {
+    object-fit: cover;
+  }
   .A_search {
     position: relative;
     border: 0.1vw solid black;
@@ -26,7 +31,11 @@
     font-size: 1.3vw;
     align-content: center;
   }
-
+  .O_search {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
   .A_button {
     height: 100%;
     padding: 0.5vw 5vw;

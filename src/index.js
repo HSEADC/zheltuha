@@ -62,6 +62,22 @@ document.addEventListener('DOMContentLoaded', () => {
       })
     })
   })
+  // МЕНЮ
+
+  if (window.innerWidth < 1024) {
+    const burger = document.getElementsByClassName('A_menu')[0]
+    const burgerbig = document.getElementsByClassName('S_nav_bar')[0]
+    burger.addEventListener('click', () => {
+      if (
+        burgerbig.style.height === '17.52vw' ||
+        burgerbig.style.height === ''
+      ) {
+        burgerbig.style.height = 'fit-content'
+      } else {
+        burgerbig.style.height = '17.52vw'
+      }
+    })
+  }
 
   // ТЕСТЫ
   const buttons2 = document.querySelectorAll('.A_button')
