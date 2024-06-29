@@ -79,6 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
 
+  // ХОВЕР
+
   // ТЕСТЫ
   const buttons2 = document.querySelectorAll('.A_button')
 
