@@ -140,6 +140,30 @@ module.exports = {
       filename: './investigations/zamok.html'
     }),
     new HtmlWebpackPlugin({
+      template: './src/investigations/star.html',
+      filename: './investigations/star.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/atom.html',
+      filename: './investigations/atom.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/nlo.html',
+      filename: './investigations/nlo.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/apple.html',
+      filename: './investigations/apple.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/ugli.html',
+      filename: './investigations/ugli.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/investigations/plane.html',
+      filename: './investigations/plane.html'
+    }),
+    new HtmlWebpackPlugin({
       template: './src/library/vanga.html',
       filename: './library/vanga.html'
     }),
@@ -172,8 +196,72 @@ module.exports = {
       filename: './library/tower.html'
     }),
     new HtmlWebpackPlugin({
-      template: './src/tests/test_one.html',
-      filename: './tests/test_one.html'
+      template: './src/library/bars.html',
+      filename: './library/bars.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/mike.html',
+      filename: './library/mike.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/mask.html',
+      filename: './library/mask.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/kadir.html',
+      filename: './library/kadir.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/martins.html',
+      filename: './library/martins.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/covid.html',
+      filename: './library/covid.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/newyear.html',
+      filename: './library/newyear.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/fish.html',
+      filename: './library/fish.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/panda.html',
+      filename: './library/panda.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/school.html',
+      filename: './library/school.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/car.html',
+      filename: './library/car.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/humster.html',
+      filename: './library/humster.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/huawei.html',
+      filename: './library/huawei.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/srach.html',
+      filename: './library/srach.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/berry.html',
+      filename: './library/berry.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/money.html',
+      filename: './library/money.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_one_one.html',
+      filename: './tests/test_one_one.html'
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/test_one_two.html',
@@ -200,6 +288,46 @@ module.exports = {
       filename: './tests/test_one_seven.html'
     }),
     new HtmlWebpackPlugin({
+      template: './src/tests/test_two_one.html',
+      filename: './tests/test_two_one.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_two_two.html',
+      filename: './tests/test_two_two.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_two_three.html',
+      filename: './tests/test_two_three.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_two_four.html',
+      filename: './tests/test_two_four.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_two_five.html',
+      filename: './tests/test_two_five.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_three_one.html',
+      filename: './tests/test_three_one.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_three_two.html',
+      filename: './tests/test_three_two.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_three_three.html',
+      filename: './tests/test_three_three.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_three_four.html',
+      filename: './tests/test_three_four.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/test_three_five.html',
+      filename: './tests/test_three_five.html'
+    }),
+    new HtmlWebpackPlugin({
       template: './src/veruneveru.html',
       filename: './veruneveru.html'
     }),
@@ -218,6 +346,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/tests.html',
       filename: './tests.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/search.html',
+      filename: './search.html'
     }),
     new HtmlWebpackPlugin({
       template: './src/investigations.html',

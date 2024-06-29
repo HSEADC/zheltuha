@@ -107,8 +107,8 @@ body::-webkit-scrollbar-thumb {
 
 .A_menu_archiv {
   position: relative;
-  width: 5.6vw;
-  height: 1.6vw;
+  width: 4.6vw;
+  height: 1.2vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -116,8 +116,8 @@ body::-webkit-scrollbar-thumb {
 }
 .active_archiv {
   position: relative;
-  width: 5.6vw;
-  height: 1.6vw;
+  width: 4.6vw;
+  height: 1.2vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -125,8 +125,8 @@ body::-webkit-scrollbar-thumb {
 }
 .A_menu_invest {
   position: relative;
-  width: 14.6vw;
-  height: 1.61vw;
+  width: 11.6vw;
+  height: 1.2vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -134,8 +134,8 @@ body::-webkit-scrollbar-thumb {
 }
 .active_invest {
   position: relative;
-  width: 14.6vw;
-  height: 1.61vw;
+  width: 11.6vw;
+  height: 1.2vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -143,8 +143,8 @@ body::-webkit-scrollbar-thumb {
 }
 .A_menu_veruneveru {
   position: relative;
-  width: 12.93vw;
-  height: 1.6vw;
+  width: 10.6vw;
+  height: 1.2vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -152,8 +152,8 @@ body::-webkit-scrollbar-thumb {
 }
 .active_veruneveru {
   position: relative;
-  width: 12.93vw;
-  height: 1.6vw;
+  width: 10.6vw;
+  height: 1.2vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -161,8 +161,8 @@ body::-webkit-scrollbar-thumb {
 }
 .A_menu_test {
   position: relative;
-  width: 5.6vw;
-  height: 1.6vw;
+  width: 4.6vw;
+  height: 1.2vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -170,34 +170,34 @@ body::-webkit-scrollbar-thumb {
 }
 .active_test {
   position: relative;
-  width: 5.6vw;
-  height: 1.6vw;
+  width: 4.6vw;
+  height: 1.2vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url(images/tests2.svg);
 }
-.A_menu_onas {
-  position: relative;
-  width: 5.5vw;
-  height: 1.6vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url(images/onas.svg);
-}
-.active_onas {
-  position: relative;
-  width: 5.5vw;
-  height: 1.6vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url(images/onas2.svg);
-}
+// .A_menu_onas {
+//   position: relative;
+//   width: 4.1vw;
+//   height: 1.2vw;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   background-image: url(images/onas.svg);
+// }
+// .active_onas {
+//   position: relative;
+//   width: 4.1vw;
+//   height: 1.2vw;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   background-image: url(images/onas2.svg);
+// }
 .A_menu_logo {
   position: absolute;
-  margin: -1.68vw auto;
+  margin: -1.68vw -11vw;
   width: 6.46vw;
   height: 3.13vw;
   background-size: cover;
@@ -205,7 +205,16 @@ body::-webkit-scrollbar-thumb {
   background-position: center center;
   background-image: url(images/logo.png);
 }
-
+.A_menu_search {
+  position: relative;
+  border: 0.1vw solid black;
+  padding: 0.42vw 1.5vw;
+  background-color: white;
+  align-content: center;
+  width: 18.6vw;
+  height: 2.5vw;
+  border-radius: 10vw;
+}
 .A_commons_teg {
   display: inline-block;
   background-color: #d4d3c0;
@@ -236,6 +245,9 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   background-position: center center;
 }
+.answer_zagolovki {
+  top: 0.5vw;
+}
 .A_soon {
   top: 5vw;
   height: 13vw;
@@ -251,6 +263,12 @@ body::-webkit-scrollbar-thumb {
 }
 .fake {
   background-image: url(images/A_deepfake.svg);
+}
+.true {
+  background-image: url(images/A_true.svg);
+}
+.false {
+  background-image: url(images/A_false.svg);
 }
 .A_deepfake {
   display: none;
@@ -293,7 +311,7 @@ body::-webkit-scrollbar-thumb {
 
 .M_menu_line_buttons {
   display: flex;
-  gap: 1.82vw;
+  gap: 1vw;
 }
 
 .M_text {
@@ -357,7 +375,33 @@ body::-webkit-scrollbar-thumb {
   height: 3vw;
   gap: 1.3vw;
 }
-
+.razdeli {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+.rassled {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+.arhiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+.M_footer_one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.M_footer_two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 // ОРГАНИЗМЫ
 
 .O_footer {
@@ -368,6 +412,8 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   outline: 0.1vw solid black;
   justify-content: space-between;
+  flex-direction: column;
+  gap: 2vw;
 }
 
 // СУПЕР ОРГАНИЗМЫ
@@ -393,10 +439,12 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0px 0.16vw 0.31vw rgba(0, 0, 0, 0.5);
   z-index: 6;
   justify-content: space-between;
-  padding: 1.04vw 4vw;
+  padding: 1.9vw 4vw;
   align-items: center;
 }
-
+.S_open_bar {
+  display: none;
+}
 // ТЕКСТ
 
 p {
@@ -447,9 +495,9 @@ h3 {
 
 h4 {
   font-family: 'zheltuhaRomanM';
-  font-size: 4.2vw;
+  font-size: 4vw;
   line-height: 95%;
-  letter-spacing: -4.3px;
+  letter-spacing: -5px;
   text-transform: uppercase;
 }
 
@@ -464,7 +512,7 @@ h5 {
 h6 {
   font-family: 'zheltuhasansblackM';
   font-size: 3.6vw;
-  letter-spacing: -0.2vw;
+  letter-spacing: -0.3vw;
   hyphens: auto;
   text-transform: uppercase;
   line-height: 95%;
@@ -836,11 +884,13 @@ h6 {
   }
   .A_menu_logo {
     position: relative;
-    margin: -4.2vw auto;
+    margin: -1.2vw auto;
     width: 17.46vw;
     height: 8.13vw;
   }
-
+  .A_menu_search {
+    display: none;
+  }
   .A_commons_teg {
     border: 0.5vw solid black;
     padding: 1.52vw 1.62vw;
@@ -849,7 +899,11 @@ h6 {
     height: 60vw;
     border: 0.5vw solid black;
   }
-
+  .A_answer {
+    top: 15vw;
+    height: 36vw;
+    width: 74vw;
+  }
   .A_statia_name {
     padding: 18vw 8vw 18vw 9vw;
     border: 0.5vw solid black;
@@ -869,7 +923,9 @@ h6 {
   .M_menu_line_buttons {
     display: none;
   }
-
+  .A_menu_search {
+    display: none;
+  }
   .M_text {
     gap: 5vw;
   }
@@ -889,7 +945,6 @@ h6 {
   }
 
   .M_imena {
-    display: none;
   }
 
   .M_icons {
@@ -901,18 +956,44 @@ h6 {
     height: 10vw;
     gap: 3.3vw;
   }
+  .rassled {
+    gap: 2vw;
+  }
+  .arhiv {
+    gap: 2vw;
+  }
+  .razdeli {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5vw;
+  }
+  .M_footer_one {
+    display: grid;
+    gap: 6vw;
+  }
 
+  .M_footer_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
   // ОРГАНИЗМЫ
 
   .O_footer {
     padding: 5.15vw 8vw;
     outline: 0.5vw solid black;
+    gap: 8vw;
+
+    p {
+      font-size: 3.2vw;
+    }
   }
 
   // СУПЕР ОРГАНИЗМЫ
 
   .S_screen {
-    padding: 22vw 8vw 8vw 8vw;
+    padding: 30vw 8vw 8vw 8vw;
     gap: 4vw;
   }
 
@@ -920,9 +1001,31 @@ h6 {
     height: 14vw;
     outline: 0.5vw solid black;
     box-shadow: 0px 0.16vw 0.31vw rgba(0, 0, 0, 0.5);
-    padding: 2.04vw 8vw;
+    padding: 6vw 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8vw;
+    height: fit-content;
   }
+  .M_logo_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .S_open_bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3vw;
 
+    p {
+      font-family: 'Verdanab';
+      font-size: 6vw;
+      line-height: 98%;
+    }
+  }
   // ТЕКСТ
 
   p {

@@ -16,7 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-
+    border: 0.1vw solid black;
     display: flex;
     justify-content: space-between;
   }
@@ -25,7 +25,7 @@
     width: 110vw;
     background-size: cover;
     background-repeat: no-repeat;
-
+    border: 0.1vw solid black;
     display: flex;
     justify-content: space-between;
   }
@@ -110,7 +110,7 @@
     p {
       position: absolute;
       top: 14vw;
-      left: 56vw;
+      left: 60vw;
       max-width: 31vw;
     }
   }
@@ -228,7 +228,78 @@
   .scarlet4 {
     background-image: url(images/A_img_scarlet_4.svg);
   }
-
+  .star1 {
+    background-image: url(images/A_img_star1.svg);
+  }
+  .star2 {
+    background-image: url(images/A_img_star2.svg);
+  }
+  .star3 {
+    background-image: url(images/A_img_star3.svg);
+  }
+  .star4 {
+    background-image: url(images/A_img_star4.svg);
+  }
+  .atom1 {
+    background-image: url(images/A_img_atom_1.svg);
+  }
+  .atom2 {
+    background-image: url(images/A_img_atom_2.svg);
+  }
+  .atom3 {
+    background-image: url(images/A_img_atom_3.svg);
+  }
+  .atom4 {
+    background-image: url(images/A_img_atom_4.svg);
+  }
+  .nlo1 {
+    background-image: url(images/A_img_nlo_1.svg);
+  }
+  .nlo2 {
+    background-image: url(images/A_img_nlo_2.svg);
+  }
+  .nlo3 {
+    background-image: url(images/A_img_nlo_3.svg);
+  }
+  .nlo4 {
+    background-image: url(images/A_img_nlo_4.svg);
+  }
+  .apple1 {
+    background-image: url(images/A_img_apple_1.svg);
+  }
+  .apple2 {
+    background-image: url(images/A_img_apple_2.svg);
+  }
+  .apple3 {
+    background-image: url(images/A_img_apple_3.svg);
+  }
+  .apple4 {
+    background-image: url(images/A_img_apple_4.svg);
+  }
+  .ugli1 {
+    background-image: url(images/A_img_ugli_1.svg);
+  }
+  .ugli2 {
+    background-image: url(images/A_img_ugli_2.svg);
+  }
+  .ugli3 {
+    background-image: url(images/A_img_ugli_3.svg);
+  }
+  .ugli4 {
+    background-image: url(images/A_img_ugli_4.svg);
+  }
+  .plane1 {
+    background-image: url(images/A_img_plane_1.svg);
+  }
+  .plane2 {
+    background-image: url(images/A_img_plane_2.svg);
+  }
+  .plane3 {
+    background-image: url(images/A_img_plane_3.svg);
+  }
+  .plane4 {
+    background-image: url(images/A_img_plane_4.svg);
+  }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     p {
       max-width: 55vw;

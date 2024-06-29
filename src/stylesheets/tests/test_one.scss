@@ -3,7 +3,7 @@
 
   .Q_test_page_progress_bar {
     width: 100%;
-    height: 100%;
+    height: 1vw;
     background-color: #d4d3c0;
     border: 0.1vw solid black;
   }
@@ -13,7 +13,7 @@
   // АТОМЫ
 
   .A_img {
-    height: 40vw;
+    height: 30vw;
   }
   .morg {
     background-image: url(images/morg.svg);
@@ -32,6 +32,36 @@
   }
   .hospital {
     background-image: url(images/A_img_hospital.svg);
+  }
+  .dron {
+    background-image: url(images/A_img_dron.svg);
+  }
+  .space {
+    background-image: url(images/A_img_space.svg);
+  }
+  .happy {
+    background-image: url(images/A_img_happy.svg);
+  }
+  .park {
+    background-image: url(images/A_img_park.svg);
+  }
+  .meme {
+    background-image: url(images/A_img_meme.svg);
+  }
+  .gucci {
+    background-image: url(images/A_img_gucci.svg);
+  }
+  .balenca {
+    background-image: url(images/A_img_balenca.svg);
+  }
+  .rinok {
+    background-image: url(images/A_img_rinok.svg);
+  }
+  .abibas {
+    background-image: url(images/A_img_abibas.svg);
+  }
+  .miau {
+    background-image: url(images/A_img_miau.svg);
   }
   .A_test_page_card_of_true {
     width: 100%;
